@@ -10,6 +10,7 @@ My curated list of awesome lists:
 * [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
 * [Awesome REST](https://github.com/marmelab/awesome-rest)
 * [Awesome SRE](https://github.com/dastergon/awesome-sre)
+* [Awesome Security](https://github.com/sbilly/awesome-security)
 * [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin)
 * [y-Cloninator](http://ycloninator.herokuapp.com/)
 * [DevOps Bookmarks](http://www.devopsbookmarks.com/)
