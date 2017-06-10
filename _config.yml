@@ -1,1 +1,28 @@
-theme: jekyll-theme-slate
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:           "/:title/"
+
+# Setup
+title:       'moshloop.com'
+tagline:     ''
+description: >
+  My name is Moshe. I'm a geek and these are some of my ramblings.
+url:         http://moshloop.com
+enforce_ssl: mosheloop.com
+baseurl:     /
+
+author:
+  name:   'Moshe Immerman'
+  email:   moshe.immerman@gmail.com
+  linkedin: moshe-immerman
+  github:  moshe-immerman
+
+paginate: 5
+excerpt_separator: <!-- more -->
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
