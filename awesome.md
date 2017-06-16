@@ -5,6 +5,7 @@ My curated list of awesome lists:
 * [Awesome](https://github.com/sindresorhus/awesome)
 * [getAwesomeness()](https://getawesomeness.herokuapp.com/)
 * [Awesome CLI](https://github.com/aharris88/awesome-cli-apps)
+* [Awesome DevOps](https://github.com/veggiemonk/awesome-docker)
 * [Awesome Java](https://github.com/akullpp/awesome-java)
 * [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 * [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
