@@ -1,37 +1,20 @@
 # DevOps Toolchain
 
-### 1-step 
+### Metrics
 
+DevOps is ultimately about focusing on MTTC/R (Speed) over MTBF.
 
-
-### Metrics 
-
-#### MTTC - Mean time to Change/Frequency
-
-#### MTTR - Mean time to recovery
-
-Identify + Know + Fix + Verify
-
-#### MTBF - Mean time between failures
-
-#### MTTD - Mean time to detect
-
-#### MTTR - Mean time to response
-
-#### Defect Rate
-
-
-
-
-
-
-
-
-
-### MTBF (Mean time between failures)
-
-MTTD ()
-
+| Metric                 | Description                | Goal       |
+| ---------------------- | -------------------------- | ---------- |
+| MTTC                   | Mean time to change        | Throughput |
+| *Deployment Frequency* |                            |            |
+| *Change Lead Time*     |                            |            |
+| MTTR                   | Mean time to recover       | Stability  |
+| *MTTD*                 | Mean time to detect        |            |
+| *MTTR*                 | Mean time to respond       |            |
+| Failure Rate           |                            | Quality    |
+| Defect Rate            |                            |            |
+| MTBF                   | Mean time between failures |            |
 
 
 ## Development
@@ -63,4 +46,6 @@ MTTD ()
 
 
 
-http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/
+## More Reading
+* [CD Landscape](http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/)
+* [State of DevOps Report](https://puppet.com/system/files/2017-06/2017-state-of-devops-report_3.pdf)          
