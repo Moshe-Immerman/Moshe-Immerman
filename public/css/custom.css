@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-@font-face{font-family:'Linux Libertine';font-style:normal;font-weight:400;src:local('Linux Libertine O'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff')}@font-face{font-family:'Linux Libertine';font-style:italic;font-weight:400;src:local('Linux Libertine O Italic'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400i.woff) format('woff')}@font-face{font-family:'Linux Libertine';font-style:normal;font-weight:700;src:local('Linux Libertine O Bold'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/700.woff) format('woff')}@font-face{font-family:'Linux Libertine';font-style:italic;font-weight:700;src:local('Linux Libertine O Bold Italic'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/700i.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),url(//brick.a.ssl.fastly.net/fonts/opensans/400.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'),url(//brick.a.ssl.fastly.net/fonts/opensans/400i.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),url(//brick.a.ssl.fastly.net/fonts/opensans/700.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'),url(//brick.a.ssl.fastly.net/fonts/opensans/700i.woff) format('woff')}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto Condensed');
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
-  font-family: 'Linux Libertine', Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    font: 1em/1.5 "Open Sans", "helvetica neue", helvetica, arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-weight: 300;
+    color: #444;
+    line-height: 24px;
 }
 
 p {
@@ -45,13 +46,13 @@ pre code {
 }
 
 .sidebar {
-  font-family: 'Roboto Condensed', 'Linux Libertine', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed',  Helvetica, Arial, sans-serif;
 }
 .sidebar .fa {
   margin-right: 10px;
 }
 .sidebar-about h1 {
-  font-family: 'Roboto Condensed', 'Linux Libertine', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
 
@@ -75,6 +76,11 @@ pre code {
   .sidebar-about img {
     margin: 0 auto;
   }
+}
+
+
+.content {
+  max-width: 800px;
 }
 
 .lead {
