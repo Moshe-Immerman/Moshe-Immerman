@@ -4,7 +4,7 @@ These are some of my thoughs on what modern software development should take int
 
 ### The laws
 
-The apply to everyone and everything - 
+These laws apply apply always - they are not suggestions or reccomendations.
 
 * [Conways Law](https://en.wikipedia.org/wiki/Conway%27s_law) - organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations
 * [Brook’s Law](https://en.wikipedia.org/wiki/Brooks%E2%80%99_law) - Adding more people to a late project, makes it later
@@ -14,7 +14,6 @@ The apply to everyone and everything -
 * [Kernighan's lever](http://www.linusakesson.net/programming/kernighans-lever/) Debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
 * [The Cone of Uncertainty](https://en.wikipedia.org/wiki/Cone_of_Uncertainty) You won’t know how long it will take until it’s complete.
 * [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) (Reduce WIP to reduce cycle time)
-* ​
 
 ### Organizational Principles
 
@@ -25,8 +24,6 @@ The apply to everyone and everything -
 * Radical Candor
 
 
-
-
 ### Management Principles
 
 - Larry Wall: The three chief virtues of a programmer are: Laziness, Impatience and Hubris.
@@ -35,7 +32,7 @@ The apply to everyone and everything -
 
 ### Design Principles
 
-* Make architecutrual decisions at the last responsible moment
+* Make architecture decisions at the last **responsible** moment
 * KISS (Keep it simple stupid) 
   * [Gall's Law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law) - plus Parnas and Alexander
   * E. F. Schumacher: Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.
