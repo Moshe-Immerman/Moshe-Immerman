@@ -11,30 +11,48 @@ These laws apply apply always - they are not suggestions!
 | Agile                                    | Failure is inevitable, plan for it, do it quickly, and most importantly learn from it. |
 | [Conways Law](https://en.wikipedia.org/wiki/Conway%27s_law) | organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations |
 | [Brook’s Law](https://en.wikipedia.org/wiki/Brooks%E2%80%99_law) | Adding more people to a late project, makes it later |
-| [Ziv’s Law](http://www.ics.uci.edu/~ziv/papers/icse97.ps) / Uncertainty Principle | Software development is unpredictable and that the documented artifacts such as specifications and requirements will never be fully understood |
+| [Uncertainty Principle](http://www.ics.uci.edu/~ziv/papers/icse97.ps) / | Software development is unpredictable and that the documented artifacts such as specifications and requirements will never be fully understood |
 | [Humphrey’s Law](https://en.wikipedia.org/w/index.php?title=The_Centipede%27s_Dilemma) | People don't know what thy want until they see what they don't want |
 | [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) | Never attribute to malice that which is adequately explained by stupidity |
 | [Kernighan's Lever](http://www.linusakesson.net/programming/kernighans-lever/) | Debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it? |
 | [The Cone of Uncertainty](https://en.wikipedia.org/wiki/Cone_of_Uncertainty) | You won’t know how long it will take until it’s complete. |
-| [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) | (Reduce WIP to reduce cycle time)        |
+| [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) |                                          |
 
 
+
+### Management Principles
+
+Learn from comapnies who have failed and learned enough to tell their tail like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture) 
+
+- Servant leadership
+- Radical Candor
+- Autonomous Teams
+- 2 pizza rule
+- A manager or leaders job is to make everyone else go faster, safer
 
 ### Organizational Principles
 
-#### Lean / Agile (Fail quickly and safely)
+####  Agile (Fail Fast -> Learn Fast -> Improve Fast)
 
 To me agile is about failing, but failing fast so that you can learn quickly. 
 
-In order to fail-fast you need safety:
+In order to fail-fast you need **safety**:
 
 * People need to feel safe when failing, it should be about learning not blaming. Utltimately the system is accountable, not for allowing failure, but for not reducing the impact of failure.
 
   * [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/) are a good approach to learning from major incidents.
 
-* Systems need to be resilent to failure. Accept that failure is an inevitable regular occurence and plan for it. i.e. Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
+* Systems need to be resilent to failure. Accept that failure is an inevitable, regular occurence.
+ * Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
+ * Limit the blast radius of failure via decoupled architecture and gradual rollouts
 
-  > DevOps in it's most simplistic form is optimising for MTTR
+ > DevOps in it's most simplistic form is optimising for MTTR
+
+#### Lean (Waste-Repellent)
+
+* Stop starting & Start finishing
+* Impact > Velocity
+* Optimise for the global value chain, not local problems.
 
 #### "Good" Programmers
 
@@ -42,16 +60,6 @@ In order to fail-fast you need safety:
 * **Curious** - Love to learn
 * **Humble** - Seek advice from others
 * No when to optimise for the short or the long term
-
-### Management Principles
-
-Strive for the Netflix's [culture](https://jobs.netflix.com/culture) of Freedom and Responsibility i.e:
-
-- Servant leadership
-- Radical Candor
-- Autonomous Teams
-- 2 pizza rule
-- A manager or leaders job is to make everyone else go faster, safer
 
 ### Design Principles
 
