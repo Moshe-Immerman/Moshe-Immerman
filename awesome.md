@@ -39,23 +39,12 @@ And few "awesome" like lists:
 ## People
 
 * [Alistair Cockburn](http://alistair.cockburn.us/)
-
 * [Brendan Gregg](http://www.brendangregg.com/)
-
 * [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker)
-
 * [Jessie Frazzelle](https://blog.jessfraz.com/)
-
 * [Kelsey Hightower](https://github.com/kelseyhightower)
-
 * [Kyle Kingsbury](http://aphyr.com/)
-
 * [Josef Langerman](http://langerman.co.za)
-
 * [Martin Fowler](http://martinfowler.com/)
-
-* [Steve McConnel](www.stevemcconnell.com/)
-
+* [Steve McConnell](www.stevemcconnell.com/)
 * [Uncle Bob](cleancoder.com/)
-
-  ​
