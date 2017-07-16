@@ -22,13 +22,30 @@ These laws apply apply always - they are not suggestions!
 
 ### Management Principles
 
-Learn from comapnies who have failed and learned enough to tell their tail like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture) 
+Learn from comapnies who have failed and learned enough to tell their tale with a well documented culture like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture), [Hubspot](https://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love/63-To_support_transparency_and_trustwe), [Etsy](https://www.slideshare.net/chaddickerson/code-as-craft-building-a-strong-engineering-culture-at-etsy?ref=http://culturecodes.co/etsy/) - see more on [cutlurecodes.co](http://culturecodes.co/)
 
-- Servant leadership
-- Radical Candor
+- "Culture isn't just one aspect of the game- it is the game"
+- [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
+- Lead by example
+- Radical Candor (very dfficult without a 1-1 culture)
+- Make everyone else go faster, safer
+
+See more by [@charlax](https://github.com/charlax/engineering-management)
+
+#### "Good" Teams
+
 - Autonomous Teams
-- 2 pizza rule
-- A manager or leaders job is to make everyone else go faster, safer
+- Cross Functional
+- Shared ownership
+- 2 pizza rule (max 7-8 people)
+
+#### "Good" Programmers
+
+- **Are Lazy** - Hate repetitive tasks and automate when possible
+- **Curious** - Love to learn
+- **Humble** - Seek advice from others
+- **Coach** Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
+- No when to optimise for the short or the long term
 
 ### Organizational Principles
 
@@ -38,15 +55,20 @@ To me agile is about failing, but failing fast so that you can learn quickly.
 
 In order to fail-fast you need **safety**:
 
-* People need to feel safe when failing, it should be about learning not blaming. Utltimately the system is accountable, not for allowing failure, but for not reducing the impact of failure.
+* People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/), it should be about learning not blaming. Utltimately the system is accountable, not for allowing failure, but for not **reducing the blast radius of failure**
 
   * [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/) are a good approach to learning from major incidents.
 
 * Systems need to be resilent to failure. Accept that failure is an inevitable, regular occurence.
- * Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
- * Limit the blast radius of failure via decoupled architecture and gradual rollouts
+* Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
+* Limit the blast radius of failure via decoupled architecture and gradual rollouts
 
- > DevOps in it's most simplistic form is optimising for MTTR
+
+#### DevOps
+
+[DevOps](https://martinfowler.com/bliki/DevOpsCulture.html) in it's most simplistic form is optimising for MTTR using the following priciniples:
+
+![](https://martinfowler.com/bliki/images/devOpsCulture/devops_culture.png)
 
 #### Lean (Waste-Repellent)
 
@@ -54,18 +76,17 @@ In order to fail-fast you need **safety**:
 * Impact > Velocity
 * Optimise for the global value chain, not local problems.
 
-#### "Good" Programmers
-
-* **Are Lazy** - Hate repetitive tasks and automate when possible
-* **Curious** - Love to learn
-* **Humble** - Seek advice from others
-* No when to optimise for the short or the long term
 
 ### Design Principles
 
 * Make architecture decisions at the last **responsible** moment
+
 * KISS (Keep it simple stupid) 
   * [Gall's Law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law) 
   * E. F. Schumacher: Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.
   * Antoine de Saint Exupéry: It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.
   * Dijkstra's Law: "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
+
+* [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
+
+  ​
