@@ -12,7 +12,7 @@ There are however some universal truth's that apply no matter the place or cultu
 
 
 
-The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](giants).  They apply to all software development wether irrespective of scale, domain and technology. 
+The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development wether irrespective of scale, domain and technology. 
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
