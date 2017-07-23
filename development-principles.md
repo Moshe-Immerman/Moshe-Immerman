@@ -1,22 +1,40 @@
 ## Development Principles
 
-These are some of my thoughs on what modern software development should take into account - or at least somewhat good development.
+These are some of my thoughts on what modern software development should take into account - or at least somewhat good development.
 
-### The laws
+### The 7 Laws
 
-These laws apply apply always - they are not suggestions!
+So what are laws and why do we need them? Since the beginning of time all societies, cultures and religions 	have had some form of law, those that did not, [ceased to exist](https://en.wikipedia.org/wiki/Genesis_flood_narrative). They provide a moral compass, a shining light to keep people on a common path.
+
+There are however many laws and many interpretations of those laws, many an direct contradiction of each other. In the US eggs must be washed before sale and refrigerated, those same eggs would be [illega](http://www.huffingtonpost.co.za/entry/english-eggs-vs-american-eggs_n_5403941)l in the EU where washing is banned.
+
+There are however some universal truth's that apply no matter the place or culture. The [7 laws of Noah](https://en.wikipedia.org/wiki/Seven_Laws_of_Noah) or [10 Commandments](https://en.wikipedia.org/wiki/Ten_Commandments) are almost universal amongst the abrahamic religions and western society.
+
+
+
+The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](giants).  They apply to all software development wether irrespective of scale, domain and technology. 
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
 | Agile                                    | Failure is inevitable, plan for it, do it quickly, and most importantly learn from it. |
 | [Conways Law](https://en.wikipedia.org/wiki/Conway%27s_law) | organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations |
 | [Brook’s Law](https://en.wikipedia.org/wiki/Brooks%E2%80%99_law) | Adding more people to a late project, makes it later |
-| [Uncertainty Principle](http://www.ics.uci.edu/~ziv/papers/icse97.ps) / | Software development is unpredictable and that the documented artifacts such as specifications and requirements will never be fully understood |
-| [Humphrey’s Law](https://en.wikipedia.org/w/index.php?title=The_Centipede%27s_Dilemma) | People don't know what thy want until they see what they don't want |
-| [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) | Never attribute to malice that which is adequately explained by stupidity |
 | [Kernighan's Lever](http://www.linusakesson.net/programming/kernighans-lever/) | Debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it? |
 | [The Cone of Uncertainty](https://en.wikipedia.org/wiki/Cone_of_Uncertainty) | You won’t know how long it will take until it’s complete. |
+| Dijkstra's Law                           | Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. |
 | [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) |                                          |
+
+
+
+## Regional Laws
+
+These *regional* laws are context dependant, they are principles that should always be kept in the back of one's mind - but they can broken.
+
+| Rule                                     | Description                              |
+| ---------------------------------------- | ---------------------------------------- |
+| [Uncertainty Principle](http://www.ics.uci.edu/~ziv/papers/icse97.ps) | Software development is unpredictable and that the documented artifacts such as specifications and requirements will never be fully understood |
+| [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) | Never attribute to malice that which is adequately explained by stupidity |
+| [Humphrey’s Law](https://en.wikipedia.org/w/index.php?title=The_Centipede%27s_Dilemma) | People don't know what they want until they see what they don't want |
 
 
 
@@ -37,6 +55,7 @@ See more by [@charlax](https://github.com/charlax/engineering-management)
 - Autonomous Teams
 - Cross Functional
 - Shared ownership
+- Personal Safety
 - 2 pizza rule (max 7-8 people)
 
 #### "Good" Programmers
@@ -77,15 +96,16 @@ In order to fail-fast you need **safety**:
 * Optimise for the global value chain, not local problems.
 
 
-### Design Principles
+### System Design Principles
 
 * Make architecture decisions at the last **responsible** moment
 
 * KISS (Keep it simple stupid) 
   * [Gall's Law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law) 
-  * E. F. Schumacher: Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.
-  * Antoine de Saint Exupéry: It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.
-  * Dijkstra's Law: "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
+
+    > **E. F. Schumacher**: Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.
+
+    > **Antoine de Saint Exupéry**: It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.
 
 * [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
 
