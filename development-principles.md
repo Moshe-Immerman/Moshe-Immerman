@@ -22,7 +22,7 @@ The 7 laws presented below are universal and have been distilled from decades of
 | [Kernighan's Lever](http://www.linusakesson.net/programming/kernighans-lever/) | Debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it? |
 | [The Cone of Uncertainty](https://en.wikipedia.org/wiki/Cone_of_Uncertainty) | You won’t know how long it will take until it’s complete. |
 | Dijkstra's Law                           | Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. |
-| [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) |                                          |
+| [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) | An organisation can only be as agile as it's least agile department |
 
 
 
