@@ -4,23 +4,24 @@ I once bought a book called [On The Shoulders of Giants](https://www.amazon.com/
 
 Listed below are the giants in the software development field. I have been trying to climb on their shoulders for the entirety of my career, and it is something I will always do. 
 
+- [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
+- [Uncle Bob](http://cleancoder.com/)
 - [Alistair Cockburn](http://alistair.cockburn.us/)
 - [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham)
-- [Brendan Gregg](http://www.brendangregg.com/)
+- [Patrick Debois](http://www.jedi.be/blog/)
 - [Deming](https://deming.org/management-system/fourteenpoints)
 - [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 - [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker)
+- [Martin Fowler](http://martinfowler.com/)
 - [Jessie Frazzelle](https://blog.jessfraz.com/)
+- [Brendan Gregg](http://www.brendangregg.com/)
 - [Kelsey Hightower](https://github.com/kelseyhightower)
-- [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
 - [Kyle Kingsbury](http://aphyr.com/)
 - [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
 - [John Kotter](https://en.wikipedia.org/wiki/John_Kotter)
 - [Josef Langerman](http://langerman.co.za)
-- [Martin Fowler](http://martinfowler.com/)
 - [Steve McConnell](www.stevemcconnell.com/)
 - [Michael Porter](https://en.wikipedia.org/wiki/Michael_Porter)
-- [Uncle Bob](http://cleancoder.com/)
 
 
 
