@@ -28,7 +28,7 @@ The 7 laws presented below are universal and have been distilled from decades of
 
 ## The 8th Uber Law - KISS
 
-The 8th and arguable most important law of all deserves a section all on it's own - Keeping things simple i
+The 8th and arguable most important law of all deserves a section all on it's own - Keeping things simple.
 
 *A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.* – **John Gall** 
 
@@ -59,49 +59,29 @@ See more by [@charlax](https://github.com/charlax/engineering-management)
 
 #### What makes a good programmer, team and leader?
 
-<table>
-<th>
-<td>Programmer</td>
-<td>Team</td>
-<td>Leader</td>
-</th>
-<tr>
-<td>
+**Programmer**
 
-<ul>
-<li> <b>Are Lazy</b> - Hate repetitive tasks and automate when possible</li>
-<li><b>Curious</b>- Love to learn</li>
-<li><b>Humble</b> - Seek advice from others  </li>
-<li><b>Coach</b> Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"</li>
-<li> Know when to optimise for the short or the long term</li>
-</ul>
+- Are Lazy - Hate repetitive tasks and automate when possible
 
 
-</td>
+- Curious - Love to learn
+- Humble - Seek advice from others 
+- Coach - Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
+- Know when to optimise for the short or the long term
 
-<td>
-<ul>
-<li>Be Autonomous and Cross Functional  </li>
-<li>Have Shared ownership</li> 
-<li>People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)</li> 
-<li>2 pizza rule (max 7-8 people)</li>
-</ul>
-</td>
+**Team**
 
-<td>
-<ul>
-<li> [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)</li>
-<li> Lead by example</li>
-<li> Radical Candor (very dfficult without a 1-1 culture)</li>
-<li>Make everyone else go faster, safer</li>
+- Be Autonomous and Cross Functional 
+- Have Shared ownership
+- People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)
+- 2 pizza rule (max 7-8 people)
 
-</ul>
+**Leadership**
 
-</td>
-
-</tr>
-
-</table>
+- [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
+- Lead by example
+- Radical Candor (very dfficult without a 1-1 culture)
+- Make everyone else go faster, safer
 
 ### Practises
 
@@ -121,15 +101,13 @@ See more by [@charlax](https://github.com/charlax/engineering-management)
 
 
 
-<div style="width=200px">
+
+
+<img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="250px"/>
 
 
 
-![](http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg)
 
-
-
-</div>
 
 ### System Design Principles
 
