@@ -12,7 +12,7 @@ There are however some universal truth's that apply no matter the place or cultu
 
 
 
-The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development wether irrespective of scale, domain and technology. 
+The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
@@ -25,6 +25,16 @@ The 7 laws presented below are universal and have been distilled from decades of
 | [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) | An organisation can only be as agile as it's least agile department |
 
 
+
+## The 8th Uber Law - KISS
+
+The 8th and arguable most important law of all deserves a section all on it's own - Keeping things simple i
+
+*A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.* – **John Gall** 
+
+*Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.* - **E. F. Schumacher**
+
+*It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.* - **Antoine de Saint Exupéry**
 
 ## Regional Laws
 
@@ -42,71 +52,96 @@ These *regional* laws are context dependant, they are principles that should alw
 
 Learn from comapnies who have failed and learned enough to tell their tale with a well documented culture like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture), [Hubspot](https://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love/63-To_support_transparency_and_trustwe), [Etsy](https://www.slideshare.net/chaddickerson/code-as-craft-building-a-strong-engineering-culture-at-etsy?ref=http://culturecodes.co/etsy/) - see more on [cutlurecodes.co](http://culturecodes.co/)
 
-- "Culture isn't just one aspect of the game- it is the game"
-- [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
-- Lead by example
-- Radical Candor (very dfficult without a 1-1 culture)
-- Make everyone else go faster, safer
+- "Culture isn't just one aspect of the game - it is the game"
+
 
 See more by [@charlax](https://github.com/charlax/engineering-management)
 
-#### "Good" Teams
+#### What makes a good programmer, team and leader?
 
-- Autonomous Teams
-- Cross Functional
-- Shared ownership
-- Personal Safety
-- 2 pizza rule (max 7-8 people)
+<table>
+<th>
+<td>Programmer</td>
+<td>Team</td>
+<td>Leader</td>
+</th>
+<tr>
+<td>
 
-#### "Good" Programmers
+<ul>
+<li> <b>Are Lazy</b> - Hate repetitive tasks and automate when possible</li>
+<li><b>Curious</b>- Love to learn</li>
+<li><b>Humble</b> - Seek advice from others  </li>
+<li><b>Coach</b> Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"</li>
+<li> Know when to optimise for the short or the long term</li>
+</ul>
 
-- **Are Lazy** - Hate repetitive tasks and automate when possible
-- **Curious** - Love to learn
-- **Humble** - Seek advice from others
-- **Coach** Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
-- No when to optimise for the short or the long term
 
-### Organizational Principles
+</td>
 
-####  Agile (Fail Fast -> Learn Fast -> Improve Fast)
+<td>
+<ul>
+<li>Be Autonomous and Cross Functional  </li>
+<li>Have Shared ownership</li> 
+<li>People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)</li> 
+<li>2 pizza rule (max 7-8 people)</li>
+</ul>
+</td>
 
-To me agile is about failing, but failing fast so that you can learn quickly. 
+<td>
+<ul>
+<li> [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)</li>
+<li> Lead by example</li>
+<li> Radical Candor (very dfficult without a 1-1 culture)</li>
+<li>Make everyone else go faster, safer</li>
 
-In order to fail-fast you need **safety**:
+</ul>
 
-* People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/), it should be about learning not blaming. Utltimately the system is accountable, not for allowing failure, but for not **reducing the blast radius of failure**
+</td>
 
-  * [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/) are a good approach to learning from major incidents.
+</tr>
 
+</table>
+
+### Practises
+
+| Practise                                 | Description                              |
+| ---------------------------------------- | ---------------------------------------- |
+| Lean/Agile Development                   | Stop starting & Start finishing.         |
+| Value Stream Mapping                     |                                          |
+| Optimise for the global value chain, not  local problems, | The global impact often means more than the local velocity. |
+| Culture Design                           |                                          |
+| Team Design                              |                                          |
+| Continuous Learning                      |                                          |
+| [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/) | A good approach to learning from major incidents. |
+
+
+
+### Modern Agile
+
+
+
+<div style="width=200px">
+
+
+
+![](http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg)
+
+
+
+</div>
+
+### System Design Principles
+
+* Make architecture decisions at the last **responsible** moment
+* Make the right thing, the easy thing.
+* Clear is better than complex
+* **KISS** (Keep it simple stupid) 
+* [Code as Documentation](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) - [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
+  * Design the architecture, name the components, document the detail
 * Systems need to be resilent to failure. Accept that failure is an inevitable, regular occurence.
 * Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
 * Limit the blast radius of failure via decoupled architecture and gradual rollouts
 
 
-#### DevOps
 
-[DevOps](https://martinfowler.com/bliki/DevOpsCulture.html) in it's most simplistic form is optimising for MTTR using the following priciniples:
-
-![](https://martinfowler.com/bliki/images/devOpsCulture/devops_culture.png)
-
-#### Lean (Waste-Repellent)
-
-* Stop starting & Start finishing
-* Impact > Velocity
-* Optimise for the global value chain, not local problems.
-
-
-### System Design Principles
-
-* Make architecture decisions at the last **responsible** moment
-
-* KISS (Keep it simple stupid) 
-  * [Gall's Law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law) 
-
-    > **E. F. Schumacher**: Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.
-
-    > **Antoine de Saint Exupéry**: It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.
-
-* [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
-
-  ​
