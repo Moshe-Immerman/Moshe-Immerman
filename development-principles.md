@@ -6,13 +6,13 @@ These are some of my thoughts on what modern software development should take in
 
 So what are laws and why do we need them? Since the beginning of time all societies, cultures and religions 	have had some form of law, those that did not, [ceased to exist](https://en.wikipedia.org/wiki/Genesis_flood_narrative). They provide a moral compass, a shining light to keep people on a common path.
 
-There are however many laws and many interpretations of those laws, many an direct contradiction of each other. In the US eggs must be washed before sale and refrigerated, those same eggs would be [illega](http://www.huffingtonpost.co.za/entry/english-eggs-vs-american-eggs_n_5403941)l in the EU where washing is banned.
+There are however many laws and many interpretations of those laws, many are in direct contradiction of each other. In the US eggs must be washed before sale and refrigerated, those same eggs would be [illega](http://www.huffingtonpost.co.za/entry/english-eggs-vs-american-eggs_n_5403941)l in the EU where washing is banned.
 
 There are however some universal truth's that apply no matter the place or culture. The [7 laws of Noah](https://en.wikipedia.org/wiki/Seven_Laws_of_Noah) or [10 Commandments](https://en.wikipedia.org/wiki/Ten_Commandments) are almost universal amongst the abrahamic religions and western society.
 
 
 
-The 7 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
+The 8 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
@@ -62,57 +62,40 @@ See more by [@charlax](https://github.com/charlax/engineering-management)
 **Programmer**
 
 - Are Lazy - Hate repetitive tasks and automate when possible
-
-
 - Curious - Love to learn
 - Humble - Seek advice from others 
 - Coach - Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
-- Know when to optimise for the short or the long term
 
-**Team**
+<a href="https://langerman.co.za/101-things-great-development-teams/"><img src="https://i2.wp.com/langerman.co.za/wp-content/uploads/2017/06/WhatGreatDevTeamsDo2.png?w=800&ssl=1"></img><a/>
 
-- Be Autonomous and Cross Functional 
-- Have Shared ownership
 - People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)
-- 2 pizza rule (max 7-8 people)
 
-**Leadership**
+### Agile Practises
 
-- [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
-- Lead by example
-- Radical Candor (very dfficult without a 1-1 culture)
-- Make everyone else go faster, safer
+Mostly derived from [Modern Agile](http://http://modernagile.org/)
 
-### Practises
+<img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="225px">
 
-| Practise                                 | Description                              |
-| ---------------------------------------- | ---------------------------------------- |
-| Lean/Agile Development                   | Stop starting & Start finishing.         |
-| Value Stream Mapping                     |                                          |
-| Optimise for the global value chain, not  local problems, | The global impact often means more than the local velocity. |
-| Culture Design                           |                                          |
-| Team Design                              |                                          |
-| Continuous Learning                      |                                          |
-| [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/) | A good approach to learning from major incidents. |
+#### Make People Awesome  
 
+#### Make Safety a Prequisite
 
+#### Deliver Value Continously   
 
-### Modern Agile
+- Value Stream Mapping    Optimise for the global value chain, not  local problems,  The global impact often means more than the local velocity.
+- Stop Starting & Start Finishing
 
+#### Experiment & Learn Rapidly
 
+* [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/)  A good approach to learning from major incidents.
 
-
-
-<img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="250px"/>
-
-
-
+#### Culture / Team Design
 
 
 ### System Design Principles
 
 * Make architecture decisions at the last **responsible** moment
-* Make the right thing, the easy thing.
+* Make the right thing also the easy thing.
 * Clear is better than complex
 * **KISS** (Keep it simple stupid) 
 * [Code as Documentation](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) - [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
