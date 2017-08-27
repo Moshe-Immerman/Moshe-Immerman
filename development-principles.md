@@ -10,7 +10,7 @@ There are however many laws and many interpretations of those laws, many are in 
 
 There are however some universal truth's that apply no matter the place or culture. The [7 laws of Noah](https://en.wikipedia.org/wiki/Seven_Laws_of_Noah) or [10 Commandments](https://en.wikipedia.org/wiki/Ten_Commandments) are almost universal amongst the abrahamic religions and western society.
 
-
+------
 
 The 8 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
 
@@ -46,8 +46,6 @@ These *regional* laws are context dependant, they are principles that should alw
 | [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) | Never attribute to malice that which is adequately explained by stupidity |
 | [Humphrey’s Law](https://en.wikipedia.org/w/index.php?title=The_Centipede%27s_Dilemma) | People don't know what they want until they see what they don't want |
 
-
-
 ### Management Principles
 
 Learn from comapnies who have failed and learned enough to tell their tale with a well documented culture like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture), [Hubspot](https://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love/63-To_support_transparency_and_trustwe), [Etsy](https://www.slideshare.net/chaddickerson/code-as-craft-building-a-strong-engineering-culture-at-etsy?ref=http://culturecodes.co/etsy/) - see more on [cutlurecodes.co](http://culturecodes.co/)
@@ -57,20 +55,18 @@ Learn from comapnies who have failed and learned enough to tell their tale with 
 
 See more by [@charlax](https://github.com/charlax/engineering-management)
 
-#### What makes a good programmer, team and leader?
-
-**Programmer**
+#### What makes a good programmer?
 
 - Are Lazy - Hate repetitive tasks and automate when possible
 - Curious - Love to learn
 - Humble - Seek advice from others 
 - Coach - Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
 
-
+### What makes a good team?
 
 <a href="https://langerman.co.za">Josef Langerman</a>'s rules for teams:
 
-<a href="https://langerman.co.za/101-things-great-development-teams/"><img src="https://i2.wp.com/langerman.co.za/wp-content/uploads/2017/06/WhatGreatDevTeamsDo2.png?w=800&ssl=1"></img><a/>
+<a href="https://langerman.co.za/101-things-great-development-teams/"><img src="https://i2.wp.com/langerman.co.za/wp-content/uploads/2017/06/WhatGreatDevTeamsDo2.png?w=800&ssl=1"/><a/>
 
 - People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)
 
@@ -100,7 +96,7 @@ Mostly derived from [Modern Agile](http://http://modernagile.org/)
 
 * Make architecture decisions at the last **responsible** moment
 * Make the right thing also the easy thing.
-* Clear is better than complex
+* Clear is better than complex - [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 * **KISS** (Keep it simple stupid) 
 * [Code as Documentation](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) - [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
   * Design the architecture, name the components, document the detail
