@@ -66,6 +66,10 @@ See more by [@charlax](https://github.com/charlax/engineering-management)
 - Humble - Seek advice from others 
 - Coach - Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
 
+
+
+<a href="https://langerman.co.za">Josef Langerman</a>'s rules for teams:
+
 <a href="https://langerman.co.za/101-things-great-development-teams/"><img src="https://i2.wp.com/langerman.co.za/wp-content/uploads/2017/06/WhatGreatDevTeamsDo2.png?w=800&ssl=1"></img><a/>
 
 - People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)
