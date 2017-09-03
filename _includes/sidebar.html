@@ -20,7 +20,6 @@
           {% if node.layout == "page" %}
           {% unless  node.tags contains "private" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.dir }}"><i class="fa fa-{{ node.icon }}"></i>{{ node.title }}</a>
-          }
           {% endunless %}
           {% endif %}
         {% endif %}
