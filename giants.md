@@ -7,6 +7,7 @@ Listed below are the giants in the software development field. I have been tryin
 - [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
 - [Joshua Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch)
 - [Uncle Bob](http://cleancoder.com/)
+- [Ed Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull)
 - [Alistair Cockburn](http://alistair.cockburn.us/)
 - [Adrian Cockcroft](https://medium.com/@adrianco)
 - [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham)

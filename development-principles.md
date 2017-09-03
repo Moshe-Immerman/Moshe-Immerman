@@ -1,4 +1,4 @@
-## Development Principles
+## 7+1 Development Laws
 
 These are some of my thoughts on what modern software development should take into account - or at least somewhat good development.
 
@@ -12,7 +12,7 @@ There are however some universal truth's that apply no matter the place or cultu
 
 ------
 
-The 8 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
+The 7+1 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
@@ -24,9 +24,7 @@ The 8 laws presented below are universal and have been distilled from decades of
 | Dijkstra's Law                           | Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. |
 | [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) | An organisation can only be as agile as it's least agile department |
 
-
-
-## The 8th Uber Law - KISS
+## KISS - The 8th Uber Law
 
 The 8th and arguable most important law of all deserves a section all on it's own - Keeping things simple.
 
@@ -36,72 +34,16 @@ The 8th and arguable most important law of all deserves a section all on it's ow
 
 *It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.* - **Antoine de Saint Exupéry**
 
-## Regional Laws
-
-These *regional* laws are context dependant, they are principles that should always be kept in the back of one's mind - but they can broken.
-
-| Rule                                     | Description                              |
-| ---------------------------------------- | ---------------------------------------- |
-| [Uncertainty Principle](http://www.ics.uci.edu/~ziv/papers/icse97.ps) | Software development is unpredictable and that the documented artifacts such as specifications and requirements will never be fully understood |
-| [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) | Never attribute to malice that which is adequately explained by stupidity |
-| [Humphrey’s Law](https://en.wikipedia.org/w/index.php?title=The_Centipede%27s_Dilemma) | People don't know what they want until they see what they don't want |
-
-### Management Principles
-
-Learn from comapnies who have failed and learned enough to tell their tale with a well documented culture like: [Spotify](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg), [Netflix](https://jobs.netflix.com/culture), [Hubspot](https://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love/63-To_support_transparency_and_trustwe), [Etsy](https://www.slideshare.net/chaddickerson/code-as-craft-building-a-strong-engineering-culture-at-etsy?ref=http://culturecodes.co/etsy/) - see more on [cutlurecodes.co](http://culturecodes.co/)
-
-- "Culture isn't just one aspect of the game - it is the game"
-
-
-See more by [@charlax](https://github.com/charlax/engineering-management)
-
-#### What makes a good programmer?
-
-- Are Lazy - Hate repetitive tasks and automate when possible
-- Curious - Love to learn
-- Humble - Seek advice from others 
-- Coach - Peter Seibel: "To be a 10x engineer, help 10 other engineers be twice as good"
-
-### What makes a good team?
-
-<a href="https://langerman.co.za">Josef Langerman</a>'s rules for teams:
-
-<a href="https://langerman.co.za/101-things-great-development-teams/"><img src="https://i2.wp.com/langerman.co.za/wp-content/uploads/2017/06/WhatGreatDevTeamsDo2.png?w=800&ssl=1"/><a/>
-
-- People need to [feel safe when failing](https://rework.withgoogle.com/blog/how-to-foster-psychological-safety/)
-
-### Agile Practises
-
-Mostly derived from [Modern Agile](http://http://modernagile.org/)
-
-<img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="225px">
-
-#### Make People Awesome  
-
-#### Make Safety a Prequisite
-
-#### Deliver Value Continously   
-
-- Value Stream Mapping    Optimise for the global value chain, not  local problems,  The global impact often means more than the local velocity.
-- Stop Starting & Start Finishing
-
-#### Experiment & Learn Rapidly
-
-* [Blameless Postmortem's](https://codeascraft.com/2012/05/22/blameless-postmortems/)  A good approach to learning from major incidents.
-
-#### Culture / Team Design
-
 
 ### System Design Principles
 
 * Make architecture decisions at the last **responsible** moment
 * Make the right thing also the easy thing.
 * Clear is better than complex - [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
-* **KISS** (Keep it simple stupid) 
 * [Code as Documentation](https://www.martinfowler.com/bliki/CodeAsDocumentation.html) - [Comments](https://martinfowler.com/bliki/CodeAsDocumentation.html) are [code smells](https://martinfowler.com/bliki/CodeSmell.html)
   * Design the architecture, name the components, document the detail
 * Systems need to be resilent to failure. Accept that failure is an inevitable, regular occurence.
-* Ignore MTBF (Mean time between failure) and optimise for MTTR (Mean time to recover).
+* Optimise for MTTR (Mean time to recover) over MTBF (Mean time between failure)
 * Limit the blast radius of failure via decoupled architecture and gradual rollouts
 
 
