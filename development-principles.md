@@ -1,3 +1,10 @@
+---
+layout: page
+title: Development Principles
+
+---
+
+
 ## 7+1 Development Laws
 
 These are some of my thoughts on what modern software development should take into account - or at least somewhat good development.

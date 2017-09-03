@@ -1,3 +1,8 @@
+---
+tags: ['private']
+
+---
+
 ### Lazy
 
 * Tell us about an innovative solution you developed to a traditional problem. 
