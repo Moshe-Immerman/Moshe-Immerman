@@ -2,29 +2,33 @@
 
 
 
-There are many aspects to software development the now famous  [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) asks 12 questions to determine the maturity of an organisation.  Nearly 2 decades later the development ecosystem has evolved  and many practises and techniques have become commonplace.
+The now (in)famous [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) asks 12 questions to determine the maturity of an organisation.  Nearly 2 decades later the development ecosystem has evolved and many practises and techniques have become commonplace.
 
-The DevOps Ladder is an attempt to document the best practises in way that is technology agnostic and provides a path for continous improvement. 
+The DevOps Ladder is an attempt to document the best practises in the form of an [information radiator](https://www.agilealliance.org/glossary/information-radiators/) that provides a guided path for continous improvement. 
 
 ![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093092/ladder_rhdbto.png)
 
-The vertical (Capablity) ladder includes 10 steps that are required throughout a project or product's lifecycle. The horizontal (Maturity)  ladder has 4 levels or steps. The goal of any project should be to implement all 10 capabilities and move them out of Level 0 ASAP. 
+The vertical (Capablity) ladder includes 10 steps that are required throughout a project or product's lifecycle. The horizontal (Maturity)  ladder has 4 levels or steps. The goal of any project should be to implement all capabilities and then move them to of Level 1 ASAP. 
+
+### Climbing Styles
 
 Adding a capability or improving the maturity level is called climbing the ladder, There are many styles of climbing:
 
 ![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093090/climbing-style_mcejjb.png)
 
-With the most common most likely being a combination:
+With a combination of styles being common:
 
 ![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508092999/DevOps_Ladder_1_qzlruz.png)
 
-As well as many anti-patterns that can be seen on the ladder:
+### Anti Patterns
+
+Many DevOps and "agile" anti-patterns are highlighted by the outliers. 
 
 ![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093091/ladder-anti-patterns_l2huzh.png)
 
 
 
-### Mature Ladders
+### Maturity
 
 Every team and project's ladder should be unique - which levels you are targeting will reflect the architectural decisions and trade-offs being made.
 
@@ -43,9 +47,9 @@ One or two L1 capabilties may also be OK on a mature ladder. e.g. Open Source pr
 | **Build**         | Manual / IDE      | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | Offline build                            |
 | **CI**            | None              | Nightly                                  | Per Commit / PR                          | - Matrix<br>- Epemeral testing instance per PR |
 | **Test**          | Manual            | Integration OR Unit Testing              | Integration AND Unit Testing             | - Fuzzy Testing<br>-Matrix<br>- Downstream |
-| **Code Analysis** |                   | Static Analysis                          | Code Reviews                             | - Security scanning<br>- Dependency scanning <br>- Architecture compliance |
+| **Code Analysis** | None              | Static Analysis                          | Code Reviews                             | - Security scanning<br>- Dependency scanning <br>- Architecture compliance |
 | **Deliver**       | Using a checklist |                                          |                                          |                                          |
-| **Deploy**        | Using a checklist | 1-step to a single environment           | manual release strategies e.g. [canary](https://martinfowler.com/bliki/CanaryRelease.html) or [blue/green](https://martinfowler.com/bliki/BlueGreenDeployment.html) | automatic release strategic based on business metrics |
+| **Deploy**        | Using a checklist | 1-step to a single environment           | manual release strategies e.g. [canary](https://martinfowler.com/bliki/CanaryRelease.html) or [blue/green](https://martinfowler.com/bliki/BlueGreenDeployment.html) | Automatic release strategic based on business metrics |
 | **Run**           |                   | Run on dev                               | Run offline                              | Cheap environment e.g. docker            |
 | **Docs**          |                   | - Getting Started<br> - Javadocs         | High Level                               | - Production Support <br>- Low Level     |
 
