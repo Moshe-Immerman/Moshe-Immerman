@@ -2,10 +2,7 @@
 layout: default
 title: Home
 ---
-
-
-
-      {% assign pages_list = site.pages %}
+     {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
@@ -13,7 +10,7 @@ title: Home
           {% endif %}
         {% endif %}
       {% endfor %}
-      
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -24,7 +21,6 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.excerpt }}
     <a class="read-more" href="{{ post.url }}">Continue reading &raquo;</a>
   </div>
