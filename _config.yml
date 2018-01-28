@@ -18,9 +18,9 @@ author:
   name:   'Moshe Immerman'
   email:   moshe.immerman@gmail.com
   linkedin: moshe-immerman
-  github:  moshe-immerman
+  github:  moshloop
 
-paginate: 5
+paginate: 10
 excerpt_separator: <!-- more -->
 
 gems:
