@@ -733,7 +733,7 @@ html {
     font: 1em/1.5 "Open Sans", "helvetica neue", helvetica, arial, sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    font-weight: 300;
+    font-weight: 400;
     color: #444;
     line-height: 24px;
 }
@@ -742,7 +742,7 @@ p {
   text-align: justify;
 }
 .content p {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 code {
