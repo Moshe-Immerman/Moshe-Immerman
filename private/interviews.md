@@ -5,7 +5,7 @@ tags: ['private']
 
 ### Lazy
 
-* Tell us about an innovative solution you developed to a traditional problem. 
+* Tell us about an innovative solution you developed to a traditional problem.
 
 ### Humility
 
@@ -49,7 +49,7 @@ tags: ['private']
 ### Dev
 
 * Micro over Mono
-* CAP 
+* CAP
 
 ### Java
 
