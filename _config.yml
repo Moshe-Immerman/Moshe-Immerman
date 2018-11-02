@@ -22,7 +22,8 @@ author:
 
 paginate: 10
 excerpt_separator: <!-- more -->
-
+exclude:
+  - private
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
