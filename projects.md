@@ -1,6 +1,6 @@
 # Projects
 
-The vast majority of my work has been on am enterprise software platform [papertrail](www.papertrail.co.za) - I am however avid open-source enthusiast.
+The vast majority of my work has been on an enterprise software platform [papertrail](https://www.papertrail.co.za) - I am however avid open-source enthusiast.
 
 # Ansible
 
