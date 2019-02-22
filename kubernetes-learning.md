@@ -7,7 +7,7 @@
 - https://training.linuxfoundation.org/training/introduction-to-kubernetes/
 - [Noobernetes 101: Top 10 Questions We Get From New K8s Users](https://youtube.com/watch?v=Y7enbKBBDhA)
 
-### Kuburnetes 201
+### Kubernetes 201
 
 - https://training.linuxfoundation.org/training/kubernetes-fundamentals/
 - https://www.udemy.com/kubernetes-certified-administrator/
@@ -16,7 +16,7 @@
 
 - [🎥 CrashLoopBackoff, Pending, FailedMount and Friends: Debugging Common Kubernetes Cluster and Application Issues](https://www.youtube.com/watch?v=7FOCG5kua1w) [📄 Slides](https://schd.ws/hosted_files/kccncna17/be/CrashLoopBackoff-Pending-FailedMount-and-Friends-draft.pdf)
 
-### Kuburnetes 301
+### Kubernetes 301
 
 * [🎥 Containers from scratch](https://www.youtube.com/watch?v=8fi7uSYlOdc)
 * [🎥 Debugging etcd](https://youtube.com/watch?v=NVMZBBQ9hsM) [📄 Slides](https://schd.ws/hosted_files/kccna18/a5/Kubecon%20Seattle_%20Debugging%20etcd.pdf)
@@ -30,7 +30,6 @@
 - [🎥 Life of a Packet - 2017](https://www.youtube.com/watch?v=0Omvgd7Hg1I)
 A little outdated with regards to container aware load balancers (NSX-T, ACI, AWS VPC, etc) and network policy providers.
 - [Illustrated Guide to Kubernetes Networking (6m read)](https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727)
-
 * [L3 Pod Networking - 5m read](https://cloudnativelabs.github.io/post/2017-05-22-kube-pod-networking/)
 * [Understanding Kubernetes Networking Ingress - 15m read](https://medium.com/google-cloud/understanding-kubernetes-networking-ingress-1bc341c84078)
 [Service vs LoadBalancer vs Ingress - 5m](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
@@ -43,15 +42,15 @@ A little outdated with regards to container aware load balancers (NSX-T, ACI, AW
   A little outdated with regards to the roadmap - Most of the items are alredy in
 * [🎥 Istio - The packets eye view](https://www.youtube.com/watch?v=zJnYuFsLHfY)
 * [🎥 Securing Cluster Networking with Network Policies](https://www.youtube.com/watch?v=3gGpMmYeEO8) [📄 Slides](https://schd.ws/hosted_files/kccncna17/46/ahmetb%20KubeCon%202017%20NA%20%E2%80%93%20Network%20Policies.pdf)
-
-### Networking 302
-* [🎥 Troubleshooting On-Premise Kubernetes Network: Underlay, Overlay and Pod](https://youtube.com/watch?v=pCJZ39RqY1s) [📄 Slides](https://schd.ws/hosted_files/kccna18/a6/Troubleshooting%20On-Premise%20Kubernetes%20Network_%20Underlay%2C%20Overlay%20and%20Pod%20V4.pdf)
+* [ 🎥 Load Balancing Demystified](https://www.youtube.com/watch?v=91evAYoWWdY) - Not specific to containers
 
 
-### List if Kubernetes talks
+### List of Kubernetes talks
 
 * https://github.com/cloudyuga/kubecon18-NA
 * https://github.com/cloudyuga/kubecon18-china
+* https://github.com/cloudyuga/kubecon18-eu
+* https://github.com/cloudyuga/kubecon17
 
 
 
