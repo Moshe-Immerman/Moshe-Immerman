@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000//404.html</loc>
+<loc>http://moshloop.com//404.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//development-principles/</loc>
+<loc>http://moshloop.com//development-principles/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//</loc>
+<loc>http://moshloop.com//</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//devops-ladder/</loc>
+<loc>http://moshloop.com//devops-ladder/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//giants/</loc>
+<loc>http://moshloop.com//giants/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//kubernetes-101/</loc>
+<loc>http://moshloop.com//kubernetes-101/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//projects/</loc>
+<loc>http://moshloop.com//projects/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000//reading-list/</loc>
+<loc>http://moshloop.com//reading-list/</loc>
 </url>
 </urlset>

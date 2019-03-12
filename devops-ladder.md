@@ -34,10 +34,10 @@ Many DevOps and "agile" anti-patterns are highlighted by the outliers.
 | **Safety**                                                   |                            | Job                                                          | Psychological                                                |                                                              |
 | **Failure**                                                  | Feared                     | Embraced                                                     | Celebrated                                                   |                                                              |
 | **Architecture**                                             | Ivory Tower                | - Just Enough <br> - Last responsible moment                 | Loosly Coupled                                               |                                                              |
-| **Plan/SDLC/Process**                                        | Adhoc/Email/Excel          | Issue Planning                                               |                                                              |                                                              |
-| **Source Code / Version Control**                            | Shared Drive / Zip         | VCS + Artifact Repository                                    | DVCS + versioning strategy e.g. [semver](http://semver.org)  | Branching Strategies e.g. <br> <span style="text-decoration: strikethrough">[Git Flow](https://guides.github.com/introduction/flow/)</span><br>OR<br>[Trunk Based](https://trunkbaseddevelopment.com) |
+| **Plan/SDLC/Process**                                        | Adhoc/Email/Excel          | ![Jira](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_75/v1508090637/product-jira-blue_dwouix.png) <br>![Github Issues](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_24/v1508091342/GitHub-Mark-64px_sprgeq.png)Issues | ![Kanban](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_150/v1508090540/kanban_xj5bse.png) [![SAFe](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508090062/SAFe.png)](http://www.scaledagileframework.com/)[![Scrum](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508089717/scrum_mxne8j.png)](https://www.scrumalliance.org) |                                                              |
+| **Source Code / Version Control**                            | Shared Drive / Zip         | ![SVN](https://c72efeb9c.cloudimg.io/width/100/x/https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1280px-Subversion_Logo.svg.png)<br> Artifact Repository | ![Git](https://c72efeb9c.cloudimg.io/width/50/x/https://git-scm.com/images/logo.png)<br> versioning strategy e.g. [semver](http://semver.org) | Branching Strategies e.g. <br> <span style="text-decoration: strikethrough">[Git Flow](https://guides.github.com/introduction/flow/)</span><br>OR<br>[Trunk Based](https://trunkbaseddevelopment.com) |
 | **Build**                                                    | Manual / IDE               | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | [Reproducible Builds](https://reproducible-builds.org/)      |
-| **[Continous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)** | Feature Branching          | [Trunk Based](https://trunkbaseddevelopment.com)             | Test Data Management                                         |                                                              |
+| **[Continous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)** |                            |                                                              | Test Data Management                                         |                                                              |
 | **Test Automation**                                          | None                       | Nightly                                                      | Per Commit / PR                                              | - Matrix<br>- Epemeral testing instance per PR               |
 | **Testing**                                                  | None                       | Integration OR <br>Unit Testing                              | Integration <br>AND <br>Unit Testing                         | - Fuzzy Testing<br>- Matrix<br>- Downstream                  |
 | **Code Review**                                              | None                       | Pair Programming OR<br>Code Review                           | Static Analysis                                              | - Security scanning<br>- Dependency scanning <br>- Architecture compliance |
@@ -47,7 +47,15 @@ Many DevOps and "agile" anti-patterns are highlighted by the outliers.
 | **Monitor**                                                  | Twitter                    | System Metrics                                               | App Metrics                                                  | Business Metrics                                             |
 | **Docs**                                                     |                            | Getting Started / README                                     | [Architecture Decision Records](https://dev9.com/blog-posts/2017/5/increasing-software-transparency-with-lightweight-architectural-decision-records) | - Playbook<br> - [Cultural Manifesto](http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/) |
 
-### Embracing Failure
+
+
+### Culture and Leadership
+
+**Leadership**
+
+**Team**
+
+**Failure and Safety**
 
 DevOps has it's roots in the lean and Agile movements where the concept of failure takes on new meaning:
 
@@ -62,7 +70,17 @@ The modern agile framework includes this concept of failure in 3 of it's 4 pilla
     - Safety and a requisition
     - Make people awesome
 
+
+
 ### CI/CD
+
+**Build** **& SCM**
+
+**Test**
+
+**Test Automation**
+
+**Inverted Test Pyramid**
 
 **Continuous Integration** (CI)
 
@@ -76,13 +94,11 @@ CD is not about continously deploying to production, rather about the state of b
 
 ### Run & Operate
 
-**Follow the UNIX Philosophy**
-
-Build simple things that do 1 thing and do it well
+**Immutable Infrastructure**
 
 **Recovery vs Repair**
 
-Always prefer the ability to recover from a total outage, than repairing a partial outage. In practise this means using database replication vs database clustering with shared storage.
+stateless > stateful (recovery > replication > clustering / repair)
 
 ### Getting Started
 
@@ -95,14 +111,14 @@ Always prefer the ability to recover from a total outage, than repairing a parti
 
 **Find and eliminate snowflakes**
 
-* Ticket driven request queues are snowflake makers
-* Immutable infrastructure can help in eliminating snowflakes
+Ticket driven request queues are snowflake makers
+Immutable infrastructure can help in eliminating snowflakes
 
 **Find and eliminate information silo's**
 
-* Use documentation as code and design driven development
-*  Git is the ideal place to store documentation as it facilitates collaboration
-   and ensures the environment and documents are always in
+ Use documentation as code and design driven development
+ Git is the ideal place to store documentation as it facilitates collaboration
+ and ensures the environment and documents are always in
 
 ### Maturity
 
