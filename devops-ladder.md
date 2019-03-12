@@ -25,23 +25,100 @@ Many DevOps and "agile" anti-patterns are highlighted by the outliers.
 ![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093091/ladder-anti-patterns_l2huzh.png)
 
 
-
-
-
 ### The Ladder
 
-| Capability                               | Underwater         | Level 1                                  | Level 2                                  | Level 3                                  |
-| ---------------------------------------- | ------------------ | :--------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| **Plan/SDLC**                            | Adhoc/Email        | ![Jira](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_75/v1508090637/product-jira-blue_dwouix.png) <br>![Github Issues](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_24/v1508091342/GitHub-Mark-64px_sprgeq.png)Issues | ![Kanban](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_150/v1508090540/kanban_xj5bse.png) [![Scrum](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508089717/scrum_mxne8j.png)](https://www.scrumalliance.org) | [![SAFe](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508090062/SAFe.png)](http://www.scaledagileframework.com/) |
-| **Source Code**                          | Shared Drive / Zip | ![SVN](https://c72efeb9c.cloudimg.io/width/100/x/https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1280px-Subversion_Logo.svg.png) | ![Git](https://c72efeb9c.cloudimg.io/width/50/x/https://git-scm.com/images/logo.png) | Branching Strategies e.g. <br> [Git Flow](https://guides.github.com/introduction/flow/)<br>OR<BR>[Trunk Based](https://trunkbaseddevelopment.com) |
-| **Build**                                | Manual / IDE       | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | [Reproducible Builds](https://reproducible-builds.org/) |
-| **[CI](https://www.martinfowler.com/articles/continuousIntegration.html)** | None               | Nightly                                  | Per Commit / PR                          | - Matrix<br>- Epemeral testing instance per PR |
-| **Test**                                 | Manual             | Integration OR Unit Testing              | Integration AND Unit Testing             | - Fuzzy Testing<br>- Matrix<br>- Downstream |
-| **Code Review**                          | None               | Pair Programming <br>OR<br>Code Review   | Static Analysis                          | - Security scanning<br>- Dependency scanning <br>- Architecture compliance |
-| **Deliver**                              | Shared drive / FTP | Artifact Repository                      | versioning strategy e.g. [semver](http://semver.org) | [feature toggles](https://www.martinfowler.com/articles/feature-toggles.html) |
-| **Deploy**                               | Using a checklist  | 1-step to production                     | Manual release strategies e.g. [canary](https://martinfowler.com/bliki/CanaryRelease.html) or [blue/green](https://martinfowler.com/bliki/BlueGreenDeployment.html) | Automatic rollout strategies based on business metrics e.g. using [Spinnaker](https://www.spinnaker.io/) |
-| **Run**                                  |                    | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | Run offline                              |
-| **Docs**                                 |                    | Getting Started / README                 | [Architecture Decision Records](https://dev9.com/blog-posts/2017/5/increasing-software-transparency-with-lightweight-architectural-decision-records) | - Playbook<br> - [Cultural Manifesto](http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/) |
+| Capability                                                   | Underwater                 | Level 1                                                      | Level 2                                                      | Level 3                                                      |
+| ------------------------------------------------------------ | -------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Leadership**                                               | Command and Control        |                                                              | Servant                                                      | Transformational                                             |
+| **Teams**                                                    | Dysfunctional              | Functional                                                   | Cross Functional                                             | Empowered                                                    |
+| **Safety**                                                   |                            | Job                                                          | Psychological                                                |                                                              |
+| **Failure**                                                  | Feared                     | Embraced                                                     | Celebrated                                                   |                                                              |
+| **Architecture**                                             | Ivory Tower                | - Just Enough <br> - Last responsible moment                 | Loosly Coupled                                               |                                                              |
+| **Plan/SDLC/Process**                                        | Adhoc/Email/Excel          | ![Jira](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_75/v1508090637/product-jira-blue_dwouix.png) <br>![Github Issues](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_24/v1508091342/GitHub-Mark-64px_sprgeq.png)Issues | ![Kanban](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_150/v1508090540/kanban_xj5bse.png) [![SAFe](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508090062/SAFe.png)](http://www.scaledagileframework.com/)[![Scrum](http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508089717/scrum_mxne8j.png)](https://www.scrumalliance.org) |                                                              |
+| **Source Code / Version Control**                            | Shared Drive / Zip         | ![SVN](https://c72efeb9c.cloudimg.io/width/100/x/https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1280px-Subversion_Logo.svg.png)<br> Artifact Repository | ![Git](https://c72efeb9c.cloudimg.io/width/50/x/https://git-scm.com/images/logo.png)<br> versioning strategy e.g. [semver](http://semver.org) | Branching Strategies e.g. <br> <span style="text-decoration: strikethrough">[Git Flow](https://guides.github.com/introduction/flow/)</span><br>OR<br>[Trunk Based](https://trunkbaseddevelopment.com) |
+| **Build**                                                    | Manual / IDE               | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | [Reproducible Builds](https://reproducible-builds.org/)      |
+| **[Continous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)** |                            |                                                              | Test Data Management                                         |                                                              |
+| **Test Automation**                                          | None                       | Nightly                                                      | Per Commit / PR                                              | - Matrix<br>- Epemeral testing instance per PR               |
+| **Testing**                                                  | None                       | Integration OR <br>Unit Testing                              | Integration <br>AND <br>Unit Testing                         | - Fuzzy Testing<br>- Matrix<br>- Downstream                  |
+| **Code Review**                                              | None                       | Pair Programming OR<br>Code Review                           | Static Analysis                                              | - Security scanning<br>- Dependency scanning <br>- Architecture compliance |
+| **Deliver**                                                  | Using a checklist          | 1-step to production                                         | Manual release strategies e.g. [canary](https://martinfowler.com/bliki/CanaryRelease.html) or [blue/green](https://martinfowler.com/bliki/BlueGreenDeployment.html) <br>[feature toggles](https://www.martinfowler.com/articles/feature-toggles.html) | Automatic rollout strategies based on business metrics e.g. using [Spinnaker](https://www.spinnaker.io/) |
+| **Deploy**                                                   | Heavyweight change control | Lightweight change control                                   | Business driven                                              |                                                              |
+| **Run**                                                      |                            | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png)Snowflake](https://martinfowler.com/bliki/SnowflakeServer.html) | [![](http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png)Phoenix](https://martinfowler.com/bliki/PhoenixServer.html) | Run offline                                                  |
+| **Monitor**                                                  | Twitter                    | System Metrics                                               | App Metrics                                                  | Business Metrics                                             |
+| **Docs**                                                     |                            | Getting Started / README                                     | [Architecture Decision Records](https://dev9.com/blog-posts/2017/5/increasing-software-transparency-with-lightweight-architectural-decision-records) | - Playbook<br> - [Cultural Manifesto](http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/) |
+
+
+
+### Culture and Leadership
+
+**Leadership**
+
+**Team**
+
+**Failure and Safety**
+
+DevOps has it's roots in the lean and Agile movements where the concept of failure takes on new meaning:
+
+Rather than viewing failure as the enemy, the agile view is that failure is a vital and necessary part of learning and expirementation - if you are not failing than you are not trying hard enough.
+
+Embracing failure entails accepting the inherent nature of all systems to fail and build systems and processes that are more resilent to change and uncertainty - focusing more on mean time to recover (MTTR) than mean time to failure (MTBF).
+
+How people react (and more importantly how they respond to other people) during and after failure is critical. Failure is a learning oppurtunity
+
+The modern agile framework includes this concept of failure in 3 of it's 4 pillars:
+    - Learning and Experimentation
+    - Safety and a requisition
+    - Make people awesome
+
+
+
+### CI/CD
+
+**Build** **& SCM**
+
+**Test**
+
+**Test Automation**
+
+**Inverted Test Pyramid**
+
+**Continuous Integration** (CI)
+
+CI is not about build and test automation, they are both core components of CI, but they are not CI.
+
+CI is about ensuring that the different parts of a system are tested to ensure compatibilty as early as possible (ideally daily).
+
+**Continuous Delivery** (CD)
+
+CD is not about continously deploying to production, rather about the state of being that allows deployment into production at any time - this is possible due to the software always being **delivered** in a stable and tested state.
+
+### Run & Operate
+
+**Immutable Infrastructure**
+
+**Recovery vs Repair**
+
+stateless > stateful (recovery > replication > clustering / repair)
+
+### Getting Started
+
+**Make the right thing, the easy thing**
+
+“If something is hard – do it more often and you will  get better!” –  Mary Poppendieck
+
+- Make terminating and replacing nodes a common and painless experience
+- Training, Copy and Paste, Policies and Non-Automated procedures are almost never easy
+
+**Find and eliminate snowflakes**
+
+Ticket driven request queues are snowflake makers
+Immutable infrastructure can help in eliminating snowflakes
+
+**Find and eliminate information silo's**
+
+ Use documentation as code and design driven development
+ Git is the ideal place to store documentation as it facilitates collaboration
+ and ensures the environment and documents are always in
 
 ### Maturity
 
@@ -53,5 +130,7 @@ One or two L1 capabilties may also be OK on a mature ladder. e.g. Open Source pr
 
 ## More Reading
 
+* [Cloud Native Trail Map](https://github.com/cncf/landscape/blob/master/README.md#trail-map)
+* [Cloud Native Maturity Matrix](https://container-solutions.com/cloud-native-maturity-matrix/)
 * [CD Landscape](http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/)
 * [State of DevOps Report](https://puppet.com/system/files/2017-06/2017-state-of-devops-report_3.pdf)
