@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+  <script type="text/javascript">
+      var host = 'mosheloop.com';
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+  </script>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Kubernetes 101 &middot; moshloop.com
+    
+  </title>
+
+  
+
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/dist/styles.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+
+  
+  <link rel="canonical" href="http://0.0.0.0:4000" />
+  
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <a href="/">
+          <img src="/public/profile.jpg" height="70" />
+        </a>
+         <p class="lead">My name is Moshe. I'm a <a href="https://gyshido.com">GyShiDo-San</a> / technologist and these are some of my ramblings.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/development-principles/"><i class="fa fa-"></i>Development Principles</a>
+          
+          
+        
+      
+        
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/devops-ladder/"><i class="fa fa-"></i>The DevOps Ladder</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/giants/"><i class="fa fa-"></i>Giants</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item active" href="/kubernetes-101/"><i class="fa fa-"></i>Kubernetes 101</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/projects/"><i class="fa fa-"></i>Projects</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/reading-list/"><i class="fa fa-"></i>My Reading List</a>
+          
+          
+        
+      
+
+      <script language="JavaScript"> <!--
+document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#111;&#115;&#104;&#101;&#46;&#105;&#109;&#109;&#101;&#114;&#109;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><i class="fa fa-envelope"></i>E-mail</a>');
+// --> </script>
+
+      <a class="sidebar-nav-item" href="https://github.com/moshloop"><i class="fa fa-github"></i>GitHub</a>
+      <a class="sidebar-nav-item" href="https://linkedin.com/in/moshe-immerman"><i class="fa fa-linkedin"></i>LinkedIn</a>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 id="kubernetes-101">Kubernetes 101</h1>
+
+<p>🎥 30 - 60 minute videos
+📄 5 - 15 minute articles
+💲 paid resources</p>
+
+<h3 id="kubernetes-100">Kubernetes 100</h3>
+
+<ul>
+  <li>📄 <a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">What is kubernetes</a></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=3I9PkvZ80BQ">Illustrated Childrens Guide to Kubernetes</a> 📄 <a href="https://www.cncf.io/wp-content/uploads/2018/12/The-Illustrated-Childrens-Guide-to-Kubernetes.pdf">Slides</a> 🕔 8m
+    <ul>
+      <li>🎥 <a href="https://www.youtube.com/watch?v=O1pv70lPlNc">Phippy goes to the Zoo</a> 📄 <a href="https://www.cncf.io/wp-content/uploads/2018/12/Phippy-Goes-To-The-Zoo.pdf">Slides</a> 🕔 16m</li>
+    </ul>
+  </li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=8SvQqZNP6uo">Kubernetes the Global Computer, Kelsey Hightower</a> 🕔 15m</li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=N7gxfroizbA">Kubernetes 101</a> 🕔 20m</li>
+</ul>
+
+<h3 id="containers">Containers</h3>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=Utf-A4rODH8">Containers from scratch</a></li>
+  <li><a href="https://www.youtube.com/watch?v=_TsSmSu57Zo">Containers from scratch - The Sequel</a></li>
+  <li><a href="https://www.youtube.com/watch?v=bK9A5ODIgac">Container Performance Analysis</a></li>
+</ul>
+
+<h3 id="kubernetes-101-1">Kubernetes 101</h3>
+
+<ul>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=EUitQ8DaZW8">Why you should care about containers</a> 6m</li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=daVUONZqn88">How Kubernetes works</a> 5m</li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=mNK14yXIZF4">How Kubernetes deployments work</a> 6m</li>
+  <li>
+    <p>🎥 <a href="https://www.youtube.com/watch?v=rDCWxkvPlAw">How the Kubernetes scheduler works</a> 7m</p>
+  </li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=TkCDUFR6xqw">Welcome to Kubernetes - Introduction and Toolkit for Getting Started with Kubernetes</a>  📄 <a href="https://schd.ws/hosted_files/kccncna17/44/KubeCon-talk.pp.pdf">Slides</a></li>
+  <li>💻 <a href="https://www.katacoda.com/courses/kubernetes">Katacoda</a></li>
+  <li>💻 <a href="https://www.edx.org/course/introduction-to-kubernetes">Introduction to Kubernetes - edx</a> 🕔 30h</li>
+  <li>💻 <a href="https://training.linuxfoundation.org/training/introduction-to-kubernetes/">Introduction to Kubernetes - Linux Foundation</a> 🕔 12h</li>
+  <li>🎥 <a href="https://youtube.com/watch?v=Y7enbKBBDhA">Noobernetes 101: Top 10 Questions We Get From New K8s Users</a></li>
+</ul>
+
+<h3 id="kubernetes-201">Kubernetes 201</h3>
+
+<ul>
+  <li>💻 <a href="https://training.linuxfoundation.org/training/kubernetes-fundamentals/">Kubernetes Fundamentals</a> 💲 🕔 35h</li>
+  <li>💻 <a href="https://www.udemy.com/kubernetes-certified-administrator/">Kubernetes Certified Administrator</a> 💲 🕔 12h</li>
+  <li>💻 <a href="https://www.udemy.com/docker-and-kubernetes-the-complete-guide/">Docker and Kubernetes - the complete guide</a> 💲 🕔 21h</li>
+  <li>💻 <a href="https://www.udemy.com/working-with-advanced-docker-operations/">Working with Advanced Docker Operations</a> 💲 🕔 3.5h</li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=75DcXGVRxaU">Next-Gen Infrastructure</a></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=tYgtDb0t908">Container Journey: Past, Present, and Future</a></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=7FOCG5kua1w">CrashLoopBackoff, Pending, FailedMount and Friends: Debugging Common Kubernetes Cluster and Application Issues</a> 📄 <a href="https://schd.ws/hosted_files/kccncna17/be/CrashLoopBackoff-Pending-FailedMount-and-Friends-draft.pdf">Slides</a></li>
+</ul>
+
+<h3 id="kubernetes-301">Kubernetes 301</h3>
+
+<ul>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=8fi7uSYlOdc">Containers from scratch</a></li>
+  <li>🎥 <a href="https://youtube.com/watch?v=NVMZBBQ9hsM">Debugging etcd</a> 📄 <a href="https://schd.ws/hosted_files/kccna18/a5/Kubecon%20Seattle_%20Debugging%20etcd.pdf">Slides</a>
+    <ul>
+      <li><a href="https://github.com/jpbetz/auger">auger</a> - for inspecting kubernetes object stored in etcd</li>
+      <li><a href="https://github.com/etcd-io/etcd/tree/master/tools/etcd-dump-logs">etcd-dump-logs</a></li>
+    </ul>
+  </li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=xZO9nx6GBu0">101 Ways to Crash Your Cluster</a> 📄 <a href="https://schd.ws/hosted_files/kccncna17/20/KubeCon%20NA%202017-101%20Ways%20to%20Crash%20Your%20Cluster.pdf">Slides</a></li>
+</ul>
+
+<h3 id="networking-101">Networking 101</h3>
+
+<ul>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet - 2017</a>
+<em>A little outdated with regards to container aware load balancers (NSX-T, ACI, AWS VPC, etc) and network policy providers.</em></li>
+  <li>📄 <a href="https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727">Illustrated Guide to Kubernetes Networking</a></li>
+  <li>📄 <a href="https://cloudnativelabs.github.io/post/2017-05-22-kube-pod-networking/">L3 Pod Networking</a></li>
+  <li>📄 <a href="https://medium.com/google-cloud/understanding-kubernetes-networking-ingress-1bc341c84078">Understanding Kubernetes Networking Ingress</a></li>
+  <li>📄 <a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0">Service vs LoadBalancer vs Ingress</a></li>
+  <li>📄 <a href="https://www.level-up.one/kubernetes-networking-pods-levelup/">Kubernetes Networking </a>
+    <ul>
+      <li>📄 <a href="https://www.level-up.one/kubernetes-networking-series-two/">Part 2</a></li>
+      <li>📄 <a href="https://www.level-up.one/kubernetes-networking-3-level-up/">Part 3</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>📄 <a href="https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/">Understanding Kuburnetes Networking Model</a></p>
+  </li>
+  <li>📄 <a href="https://blog.mbrt.it/2017-10-01-demystifying-container-networking/">Demystifying Container Networking</a></li>
+</ul>
+
+<h3 id="networking-202">Networking 202</h3>
+
+<ul>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=HMofcmTD444">Istio: Sailing to a Secure Services Mesh - 2017</a> 📄 <a href="https://schd.ws/hosted_files/kccncna17/21/KubeCon2017%20-%20Istio%20Security.pdf"> Slides</a>.
+<em>A little outdated with regards to the roadmap - Most of the items are alredy in</em></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=zJnYuFsLHfY">Istio - The packets eye view</a></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=3gGpMmYeEO8">Securing Cluster Networking with Network Policies</a> 📄 <a href="https://schd.ws/hosted_files/kccncna17/46/ahmetb%20KubeCon%202017%20NA%20%E2%80%93%20Network%20Policies.pdf">Slides</a></li>
+  <li>🎥 <a href="https://www.youtube.com/watch?v=91evAYoWWdY">Load Balancing Demystified</a>
+<em>Not specific to containers</em></li>
+</ul>
+
+<h3 id="list-of-kubernetes-talks">List of Kubernetes talks</h3>
+
+<ul>
+  <li>https://github.com/cloudyuga/kubecon18-NA</li>
+  <li>https://github.com/cloudyuga/kubecon18-china</li>
+  <li>https://github.com/cloudyuga/kubecon18-eu</li>
+  <li>https://github.com/cloudyuga/kubecon17</li>
+</ul>
+
+
+</div>
+
+
+      <div id="disqus_thread"></div>
+    </div>
+
+
+  </body>
+
+<script>
+    var disqus_config = function () {
+    this.page.url = 'http://0.0.0.0:4000/kubernetes-101/';
+    this.page.identifier = 'Kubernetes 101';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://moshloop.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+</html>

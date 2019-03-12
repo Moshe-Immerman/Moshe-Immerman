@@ -1,0 +1,13 @@
+version: '3'
+networks:
+  default:
+    external:
+      name: bridge
+services:
+  web:
+    build: ./
+    network_mode: "bridge"
+    volumes:
+      - .:/site
+    ports:
+      - 4000:4000

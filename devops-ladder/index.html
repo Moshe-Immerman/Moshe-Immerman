@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+  <script type="text/javascript">
+      var host = 'mosheloop.com';
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+  </script>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      The DevOps Ladder &middot; moshloop.com
+    
+  </title>
+
+  
+
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/dist/styles.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+
+  
+  <link rel="canonical" href="http://0.0.0.0:4000" />
+  
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <a href="/">
+          <img src="/public/profile.jpg" height="70" />
+        </a>
+         <p class="lead">My name is Moshe. I'm a <a href="https://gyshido.com">GyShiDo-San</a> / technologist and these are some of my ramblings.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/development-principles/"><i class="fa fa-"></i>Development Principles</a>
+          
+          
+        
+      
+        
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item active" href="/devops-ladder/"><i class="fa fa-"></i>The DevOps Ladder</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/giants/"><i class="fa fa-"></i>Giants</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/kubernetes-101/"><i class="fa fa-"></i>Kubernetes 101</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/projects/"><i class="fa fa-"></i>Projects</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/reading-list/"><i class="fa fa-"></i>My Reading List</a>
+          
+          
+        
+      
+
+      <script language="JavaScript"> <!--
+document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#111;&#115;&#104;&#101;&#46;&#105;&#109;&#109;&#101;&#114;&#109;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><i class="fa fa-envelope"></i>E-mail</a>');
+// --> </script>
+
+      <a class="sidebar-nav-item" href="https://github.com/moshloop"><i class="fa fa-github"></i>GitHub</a>
+      <a class="sidebar-nav-item" href="https://linkedin.com/in/moshe-immerman"><i class="fa fa-linkedin"></i>LinkedIn</a>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 id="the-devops-ladder">The DevOps Ladder</h1>
+
+<p>The now (in)famous <a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/">Joel Test</a> asks 12 questions to determine the maturity of an organisation.  Nearly 2 decades later the development ecosystem has evolved and many practises and techniques have become commonplace.</p>
+
+<p>The DevOps Ladder is an attempt to document the best practises in the form of an <a href="https://www.agilealliance.org/glossary/information-radiators/">information radiator</a> that provides a guided path for continous improvement.</p>
+
+<p><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093092/ladder_rhdbto.png" alt="" /></p>
+
+<p>The vertical (Capablity) ladder includes 10 steps that are required throughout a project or product’s lifecycle. The horizontal (Maturity)  ladder has 4 levels or steps. The goal of any project should be to implement all capabilities and then move them to of Level 1 ASAP.</p>
+
+<h3 id="climbing-styles">Climbing Styles</h3>
+
+<p>Adding a capability or improving the maturity level is called climbing the ladder, There are many styles of climbing:</p>
+
+<p><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093090/climbing-style_mcejjb.png" alt="" /></p>
+
+<p>With a combination of styles being common:</p>
+
+<p><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508092999/DevOps_Ladder_1_qzlruz.png" alt="" /></p>
+
+<h3 id="anti-patterns">Anti Patterns</h3>
+
+<p>Many DevOps and “agile” anti-patterns are highlighted by the outliers.</p>
+
+<p><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508093091/ladder-anti-patterns_l2huzh.png" alt="" /></p>
+
+<h3 id="the-ladder">The Ladder</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Underwater</th>
+      <th style="text-align: left">Level 1</th>
+      <th>Level 2</th>
+      <th>Level 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Leadership</strong></td>
+      <td>Command and Control</td>
+      <td style="text-align: left"> </td>
+      <td>Servant</td>
+      <td>Transformational</td>
+    </tr>
+    <tr>
+      <td><strong>Teams</strong></td>
+      <td>Dysfunctional</td>
+      <td style="text-align: left">Functional</td>
+      <td>Cross Functional</td>
+      <td>Empowered</td>
+    </tr>
+    <tr>
+      <td><strong>Safety</strong></td>
+      <td> </td>
+      <td style="text-align: left">Job</td>
+      <td>Psychological</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Failure</strong></td>
+      <td>Feared</td>
+      <td style="text-align: left">Embraced</td>
+      <td>Celebrated</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Architecture</strong></td>
+      <td>Ivory Tower</td>
+      <td style="text-align: left">- Just Enough <br /> - Last responsible moment</td>
+      <td>Loosly Coupled</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Plan/SDLC/Process</strong></td>
+      <td>Adhoc/Email/Excel</td>
+      <td style="text-align: left"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_75/v1508090637/product-jira-blue_dwouix.png" alt="Jira" /> <br /><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_24/v1508091342/GitHub-Mark-64px_sprgeq.png" alt="Github Issues" />Issues</td>
+      <td><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_150/v1508090540/kanban_xj5bse.png" alt="Kanban" /> <a href="http://www.scaledagileframework.com/"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508090062/SAFe.png" alt="SAFe" /></a><a href="https://www.scrumalliance.org"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508089717/scrum_mxne8j.png" alt="Scrum" /></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Source Code / Version Control</strong></td>
+      <td>Shared Drive / Zip</td>
+      <td style="text-align: left"><img src="https://c72efeb9c.cloudimg.io/width/100/x/https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1280px-Subversion_Logo.svg.png" alt="SVN" /><br /> Artifact Repository</td>
+      <td><img src="https://c72efeb9c.cloudimg.io/width/50/x/https://git-scm.com/images/logo.png" alt="Git" /><br /> versioning strategy e.g. <a href="http://semver.org">semver</a></td>
+      <td>Branching Strategies e.g. <br /> <span style="text-decoration: strikethrough"><a href="https://guides.github.com/introduction/flow/">Git Flow</a></span><br />OR<br /><a href="https://trunkbaseddevelopment.com">Trunk Based</a></td>
+    </tr>
+    <tr>
+      <td><strong>Build</strong></td>
+      <td>Manual / IDE</td>
+      <td style="text-align: left"><a href="https://martinfowler.com/bliki/SnowflakeServer.html"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png" alt="" />Snowflake</a></td>
+      <td><a href="https://martinfowler.com/bliki/PhoenixServer.html"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png" alt="" />Phoenix</a></td>
+      <td><a href="https://reproducible-builds.org/">Reproducible Builds</a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.martinfowler.com/articles/continuousIntegration.html">Continous Integration</a></strong></td>
+      <td> </td>
+      <td style="text-align: left"> </td>
+      <td>Test Data Management</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Test Automation</strong></td>
+      <td>None</td>
+      <td style="text-align: left">Nightly</td>
+      <td>Per Commit / PR</td>
+      <td>- Matrix<br />- Epemeral testing instance per PR</td>
+    </tr>
+    <tr>
+      <td><strong>Testing</strong></td>
+      <td>None</td>
+      <td style="text-align: left">Integration OR <br />Unit Testing</td>
+      <td>Integration <br />AND <br />Unit Testing</td>
+      <td>- Fuzzy Testing<br />- Matrix<br />- Downstream</td>
+    </tr>
+    <tr>
+      <td><strong>Code Review</strong></td>
+      <td>None</td>
+      <td style="text-align: left">Pair Programming OR<br />Code Review</td>
+      <td>Static Analysis</td>
+      <td>- Security scanning<br />- Dependency scanning <br />- Architecture compliance</td>
+    </tr>
+    <tr>
+      <td><strong>Deliver</strong></td>
+      <td>Using a checklist</td>
+      <td style="text-align: left">1-step to production</td>
+      <td>Manual release strategies e.g. <a href="https://martinfowler.com/bliki/CanaryRelease.html">canary</a> or <a href="https://martinfowler.com/bliki/BlueGreenDeployment.html">blue/green</a> <br /><a href="https://www.martinfowler.com/articles/feature-toggles.html">feature toggles</a></td>
+      <td>Automatic rollout strategies based on business metrics e.g. using <a href="https://www.spinnaker.io/">Spinnaker</a></td>
+    </tr>
+    <tr>
+      <td><strong>Deploy</strong></td>
+      <td>Heavyweight change control</td>
+      <td style="text-align: left">Lightweight change control</td>
+      <td>Business driven</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Run</strong></td>
+      <td> </td>
+      <td style="text-align: left"><a href="https://martinfowler.com/bliki/SnowflakeServer.html"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089198/snowflake.png" alt="" />Snowflake</a></td>
+      <td><a href="https://martinfowler.com/bliki/PhoenixServer.html"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/v1508089199/phoenix.png" alt="" />Phoenix</a></td>
+      <td>Run offline</td>
+    </tr>
+    <tr>
+      <td><strong>Monitor</strong></td>
+      <td>Twitter</td>
+      <td style="text-align: left">System Metrics</td>
+      <td>App Metrics</td>
+      <td>Business Metrics</td>
+    </tr>
+    <tr>
+      <td><strong>Docs</strong></td>
+      <td> </td>
+      <td style="text-align: left">Getting Started / README</td>
+      <td><a href="https://dev9.com/blog-posts/2017/5/increasing-software-transparency-with-lightweight-architectural-decision-records">Architecture Decision Records</a></td>
+      <td>- Playbook<br /> - <a href="http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/">Cultural Manifesto</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="culture-and-leadership">Culture and Leadership</h3>
+
+<p><strong>Leadership</strong></p>
+
+<p><strong>Team</strong></p>
+
+<p><strong>Failure and Safety</strong></p>
+
+<p>DevOps has it’s roots in the lean and Agile movements where the concept of failure takes on new meaning:</p>
+
+<p>Rather than viewing failure as the enemy, the agile view is that failure is a vital and necessary part of learning and expirementation - if you are not failing than you are not trying hard enough.</p>
+
+<p>Embracing failure entails accepting the inherent nature of all systems to fail and build systems and processes that are more resilent to change and uncertainty - focusing more on mean time to recover (MTTR) than mean time to failure (MTBF).</p>
+
+<p>How people react (and more importantly how they respond to other people) during and after failure is critical. Failure is a learning oppurtunity</p>
+
+<p>The modern agile framework includes this concept of failure in 3 of it’s 4 pillars:
+    - Learning and Experimentation
+    - Safety and a requisition
+    - Make people awesome</p>
+
+<h3 id="cicd">CI/CD</h3>
+
+<p><strong>Build</strong> <strong>&amp; SCM</strong></p>
+
+<p><strong>Test</strong></p>
+
+<p><strong>Test Automation</strong></p>
+
+<p><strong>Inverted Test Pyramid</strong></p>
+
+<p><strong>Continuous Integration</strong> (CI)</p>
+
+<p>CI is not about build and test automation, they are both core components of CI, but they are not CI.</p>
+
+<p>CI is about ensuring that the different parts of a system are tested to ensure compatibilty as early as possible (ideally daily).</p>
+
+<p><strong>Continuous Delivery</strong> (CD)</p>
+
+<p>CD is not about continously deploying to production, rather about the state of being that allows deployment into production at any time - this is possible due to the software always being <strong>delivered</strong> in a stable and tested state.</p>
+
+<h3 id="run--operate">Run &amp; Operate</h3>
+
+<p><strong>Immutable Infrastructure</strong></p>
+
+<p><strong>Recovery vs Repair</strong></p>
+
+<p>stateless &gt; stateful (recovery &gt; replication &gt; clustering / repair)</p>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p><strong>Make the right thing, the easy thing</strong></p>
+
+<p>“If something is hard – do it more often and you will  get better!” –  Mary Poppendieck</p>
+
+<ul>
+  <li>Make terminating and replacing nodes a common and painless experience</li>
+  <li>Training, Copy and Paste, Policies and Non-Automated procedures are almost never easy</li>
+</ul>
+
+<p><strong>Find and eliminate snowflakes</strong></p>
+
+<p>Ticket driven request queues are snowflake makers
+Immutable infrastructure can help in eliminating snowflakes</p>
+
+<p><strong>Find and eliminate information silo’s</strong></p>
+
+<p>Use documentation as code and design driven development
+ Git is the ideal place to store documentation as it facilitates collaboration
+ and ensures the environment and documents are always in</p>
+
+<h3 id="maturity">Maturity</h3>
+
+<p>Every team and project’s ladder should be unique - which levels you are targeting will reflect the architectural decisions and trade-offs being made.</p>
+
+<p>Mature ladders will have most if not all capabilties at Level 2 and a few at Level 3 - but never everything at Level 3. If everything is at Level 3 you are not stretching yourself - reconsider what L3 means for you.  e.g. If you are already conducting code reviews then maybe stretch to having the reviewers automatically selected by git history or an OWNERS file - There is always something more you can do.</p>
+
+<p>One or two L1 capabilties may also be OK on a mature ladder. e.g. Open Source projects rarely have planning above issue tracking - there is nothing inherently wrong with that.  Likewise your deployment target may be very static and a L1 CI system is sufficient.</p>
+
+<h2 id="more-reading">More Reading</h2>
+
+<ul>
+  <li><a href="https://github.com/cncf/landscape/blob/master/README.md#trail-map">Cloud Native Trail Map</a></li>
+  <li><a href="https://container-solutions.com/cloud-native-maturity-matrix/">Cloud Native Maturity Matrix</a></li>
+  <li><a href="http://www.jamesbowman.me/post/continuous-delivery-tool-landscape/">CD Landscape</a></li>
+  <li><a href="https://puppet.com/system/files/2017-06/2017-state-of-devops-report_3.pdf">State of DevOps Report</a></li>
+</ul>
+
+</div>
+
+
+      <div id="disqus_thread"></div>
+    </div>
+
+
+  </body>
+
+<script>
+    var disqus_config = function () {
+    this.page.url = 'http://0.0.0.0:4000/devops-ladder/';
+    this.page.identifier = 'The DevOps Ladder';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://moshloop.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+</html>

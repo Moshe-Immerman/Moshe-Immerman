@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+  <script type="text/javascript">
+      var host = 'mosheloop.com';
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+  </script>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Development Principles &middot; moshloop.com
+    
+  </title>
+
+  
+
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/dist/styles.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+
+  
+  <link rel="canonical" href="http://0.0.0.0:4000" />
+  
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <a href="/">
+          <img src="/public/profile.jpg" height="70" />
+        </a>
+         <p class="lead">My name is Moshe. I'm a <a href="https://gyshido.com">GyShiDo-San</a> / technologist and these are some of my ramblings.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item active" href="/development-principles/"><i class="fa fa-"></i>Development Principles</a>
+          
+          
+        
+      
+        
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/devops-ladder/"><i class="fa fa-"></i>The DevOps Ladder</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/giants/"><i class="fa fa-"></i>Giants</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/kubernetes-101/"><i class="fa fa-"></i>Kubernetes 101</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/projects/"><i class="fa fa-"></i>Projects</a>
+          
+          
+        
+      
+        
+          
+          
+            <a class="sidebar-nav-item" href="/reading-list/"><i class="fa fa-"></i>My Reading List</a>
+          
+          
+        
+      
+
+      <script language="JavaScript"> <!--
+document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#111;&#115;&#104;&#101;&#46;&#105;&#109;&#109;&#101;&#114;&#109;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><i class="fa fa-envelope"></i>E-mail</a>');
+// --> </script>
+
+      <a class="sidebar-nav-item" href="https://github.com/moshloop"><i class="fa fa-github"></i>GitHub</a>
+      <a class="sidebar-nav-item" href="https://linkedin.com/in/moshe-immerman"><i class="fa fa-linkedin"></i>LinkedIn</a>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h2 id="development-laws">7+1 Development Laws</h2>
+
+<p>These are some of my thoughts on what modern software development should take into account - or at least somewhat good development.</p>
+
+<h3 id="the-7-laws">The 7 Laws</h3>
+
+<p>So what are laws and why do we need them? Since the beginning of time all societies, cultures and religions 	have had some form of law, those that did not, <a href="https://en.wikipedia.org/wiki/Genesis_flood_narrative">ceased to exist</a>. They provide a moral compass, a shining light to keep people on a common path.</p>
+
+<p>There are however many laws and many interpretations of those laws, many are in direct contradiction of each other. In the US eggs must be washed before sale and refrigerated, those same eggs would be <a href="http://www.huffingtonpost.co.za/entry/english-eggs-vs-american-eggs_n_5403941">illega</a>l in the EU where washing is banned.</p>
+
+<p>There are however some universal truth’s that apply no matter the place or culture. The <a href="https://en.wikipedia.org/wiki/Seven_Laws_of_Noah">7 laws of Noah</a> or <a href="https://en.wikipedia.org/wiki/Ten_Commandments">10 Commandments</a> are almost universal amongst the abrahamic religions and western society.</p>
+
+<hr />
+
+<p>The 7+1 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the <a href="/giants">giants</a>.  They apply to all software development irrespective of scale, domain and technology.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Law</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agile</td>
+      <td>Failure is inevitable, plan for it, do it quickly, and most importantly learn from it.</td>
+    </tr>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Conway%27s_law">Conways Law</a></td>
+      <td>organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations</td>
+    </tr>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Brooks%E2%80%99_law">Brook’s Law</a></td>
+      <td>Adding more people to a late project, makes it later</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.linusakesson.net/programming/kernighans-lever/">Kernighan’s Lever</a></td>
+      <td>Debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?</td>
+    </tr>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Cone_of_Uncertainty">The Cone of Uncertainty</a></td>
+      <td>You won’t know how long it will take until it’s complete.</td>
+    </tr>
+    <tr>
+      <td>Dijkstra’s Law</td>
+      <td>Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.</td>
+    </tr>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Theory_of_constraints">Theory of Constraints</a></td>
+      <td>An organisation can only be as agile as it’s least agile department</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="kiss---the-8th-uber-law">KISS - The 8th Uber Law</h2>
+
+<p>The 8th and arguable most important law of all deserves a section all on it’s own - Keeping things simple.</p>
+
+<p><em>A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.</em> – <strong>John Gall</strong></p>
+
+<p><em>Any intelligent fool can make things bigger and more complex… It takes a touch of genius - and a lot of courage to move in the opposite direction.</em> - <strong>E. F. Schumacher</strong></p>
+
+<p><em>It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.</em> - <strong>Antoine de Saint Exupéry</strong></p>
+
+<p>Economic Complexity: <a href="https://www.youtube.com/watch?v=xc_PZ5OPXcc">AWS re:Invent 2017: Models of Availability (ARC321)</a>
+    - State
+    - Relationships
+    - Uncertaintity
+    - Irreversability</p>
+
+<h3 id="system-design-principles">System Design Principles</h3>
+
+<ul>
+  <li>Make architecture decisions at the last <strong>responsible</strong> moment</li>
+  <li>Make the right thing also the easy thing.</li>
+  <li>Clear is better than complex - <a href="https://www.python.org/dev/peps/pep-0020/">Zen of Python</a></li>
+  <li><a href="https://www.martinfowler.com/bliki/CodeAsDocumentation.html">Code as Documentation</a> - <a href="https://martinfowler.com/bliki/CodeAsDocumentation.html">Comments</a> are <a href="https://martinfowler.com/bliki/CodeSmell.html">code smells</a>
+    <ul>
+      <li>Design the architecture, name the components, document the detail</li>
+    </ul>
+  </li>
+  <li>Systems need to be resilent to failure. Accept that failure is an inevitable, regular occurence.</li>
+  <li>Optimise for MTTR (Mean time to recover) over MTBF (Mean time between failure)</li>
+  <li>Limit the blast radius of failure via decoupled architecture and gradual rollouts</li>
+</ul>
+
+
+</div>
+
+
+      <div id="disqus_thread"></div>
+    </div>
+
+
+  </body>
+
+<script>
+    var disqus_config = function () {
+    this.page.url = 'http://0.0.0.0:4000/development-principles/';
+    this.page.identifier = 'Development Principles';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://moshloop.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+</html>
