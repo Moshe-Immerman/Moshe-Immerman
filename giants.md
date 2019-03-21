@@ -9,12 +9,14 @@ Listed below are the giants in the software development field. I have been tryin
 - [Brendan Gregg](http://www.brendangregg.com/)
 - [Bryan Cantrill](https://en.wikipedia.org/wiki/Bryan_Cantrill)
 - [Deming](https://deming.org/management-system/fourteenpoints)
+- [Dominica DeGrandis](http://ddegrandis.com/)
 - [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
 - [Ed Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull)
 - [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 - [Jessie Frazzelle](https://blog.jessfraz.com/)
 - [Jez Humble](https://continuousdelivery.com/)
 - [John Kotter](https://en.wikipedia.org/wiki/John_Kotter)
+- [John Willis](https://itrevolution.com/faculty/john-willis/)
 - [Josef Langerman](http://langerman.co.za)
 - [Joshua Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch)
 - [Kelsey Hightower](https://github.com/kelseyhightower)
@@ -22,11 +24,8 @@ Listed below are the giants in the software development field. I have been tryin
 - [Kyle Kingsbury](http://aphyr.com/)
 - [Martin Fowler](http://martinfowler.com/)
 - [Michael Porter](https://en.wikipedia.org/wiki/Michael_Porter)
+- [Nicole Forsgren](http://nicolefv.com/)
 - [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker)
 - [Steve McConnell](https://www.stevemcconnell.com/)
-
-
-The [ACM Turing Award](https://en.wikipedia.org/wiki/Turing_Award), [ACM Fellows](https://en.wikipedia.org/wiki/List_of_Fellows_of_the_Association_for_Computing_Machinery) and [IEEE John von Neumann Medal](https://en.wikipedia.org/wiki/IEEE_John_von_Neumann_Medal) provides a more comprehensive list of the giants of whose work I have not had the pleasure of using directly.
-
 
 

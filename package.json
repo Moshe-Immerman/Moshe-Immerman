@@ -4,7 +4,6 @@
   "description": "Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.",
   "main": "gulpfile.js",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",

@@ -184,7 +184,7 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
     </tr>
     <tr>
       <td><strong>Safety</strong></td>
-      <td> </td>
+      <td>Physical</td>
       <td style="text-align: left">Job</td>
       <td>Psychological</td>
       <td> </td>
@@ -197,6 +197,13 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
       <td> </td>
     </tr>
     <tr>
+      <td><strong>Westrum</strong></td>
+      <td>Pathological</td>
+      <td style="text-align: left">Bureaucratic</td>
+      <td>Generative</td>
+      <td> </td>
+    </tr>
+    <tr>
       <td><strong>Architecture</strong></td>
       <td>Ivory Tower</td>
       <td style="text-align: left">- Just Enough <br /> - Last responsible moment</td>
@@ -204,16 +211,9 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
       <td> </td>
     </tr>
     <tr>
-      <td><strong>Plan/SDLC/Process</strong></td>
-      <td>Adhoc/Email/Excel</td>
-      <td style="text-align: left"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_75/v1508090637/product-jira-blue_dwouix.png" alt="Jira" /> <br /><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_24/v1508091342/GitHub-Mark-64px_sprgeq.png" alt="Github Issues" />Issues</td>
-      <td><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_150/v1508090540/kanban_xj5bse.png" alt="Kanban" /> <a href="http://www.scaledagileframework.com/"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508090062/SAFe.png" alt="SAFe" /></a><a href="https://www.scrumalliance.org"><img src="http://res.cloudinary.com/dyjp6brbx/image/upload/c_scale,w_100/v1508089717/scrum_mxne8j.png" alt="Scrum" /></a></td>
-      <td> </td>
-    </tr>
-    <tr>
       <td><strong>Source Code / Version Control</strong></td>
       <td>Shared Drive / Zip</td>
-      <td style="text-align: left"><img src="https://c72efeb9c.cloudimg.io/width/100/x/https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1280px-Subversion_Logo.svg.png" alt="SVN" /><br /> Artifact Repository</td>
+      <td style="text-align: left">CVS<br /> Artifact Repository</td>
       <td><img src="https://c72efeb9c.cloudimg.io/width/50/x/https://git-scm.com/images/logo.png" alt="Git" /><br /> versioning strategy e.g. <a href="http://semver.org">semver</a></td>
       <td>Branching Strategies e.g. <br /> <span style="text-decoration: strikethrough"><a href="https://guides.github.com/introduction/flow/">Git Flow</a></span><br />OR<br /><a href="https://trunkbaseddevelopment.com">Trunk Based</a></td>
     </tr>
@@ -226,8 +226,8 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
     </tr>
     <tr>
       <td><strong><a href="https://www.martinfowler.com/articles/continuousIntegration.html">Continous Integration</a></strong></td>
-      <td> </td>
-      <td style="text-align: left"> </td>
+      <td>Long lived branches</td>
+      <td style="text-align: left">Trunk Based</td>
       <td>Test Data Management</td>
       <td> </td>
     </tr>
@@ -292,9 +292,7 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
 
 <h3 id="culture-and-leadership">Culture and Leadership</h3>
 
-<p><strong>Leadership</strong></p>
-
-<p><strong>Team</strong></p>
+<p><strong>Accountability and Responsibility</strong></p>
 
 <p><strong>Failure and Safety</strong></p>
 
@@ -304,22 +302,14 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
 
 <p>Embracing failure entails accepting the inherent nature of all systems to fail and build systems and processes that are more resilent to change and uncertainty - focusing more on mean time to recover (MTTR) than mean time to failure (MTBF).</p>
 
-<p>How people react (and more importantly how they respond to other people) during and after failure is critical. Failure is a learning oppurtunity</p>
+<p>How people react (and more importantly how they respond to other people) during and after failure is critical. Failure is an unplanned investment, the only thing you can control is the ROI.</p>
 
-<p>The modern agile framework includes this concept of failure in 3 of it’s 4 pillars:
+<p>The <a href="http://modernagile.org/">modern agile</a> framework includes this concept of failure in 3 of it’s 4 pillars:
     - Learning and Experimentation
     - Safety and a requisition
     - Make people awesome</p>
 
 <h3 id="cicd">CI/CD</h3>
-
-<p><strong>Build</strong> <strong>&amp; SCM</strong></p>
-
-<p><strong>Test</strong></p>
-
-<p><strong>Test Automation</strong></p>
-
-<p><strong>Inverted Test Pyramid</strong></p>
 
 <p><strong>Continuous Integration</strong> (CI)</p>
 
@@ -327,17 +317,62 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
 
 <p>CI is about ensuring that the different parts of a system are tested to ensure compatibilty as early as possible (ideally daily).</p>
 
+<ul>
+  <li><a href="https://kentcdodds.com/blog/write-tests/">Write tests. Not too many. Mostly integration</a>
+    <ul>
+      <li><a href="https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid">The forgotten middle layer</a></li>
+    </ul>
+  </li>
+</ul>
+
 <p><strong>Continuous Delivery</strong> (CD)</p>
 
 <p>CD is not about continously deploying to production, rather about the state of being that allows deployment into production at any time - this is possible due to the software always being <strong>delivered</strong> in a stable and tested state.</p>
 
 <h3 id="run--operate">Run &amp; Operate</h3>
 
-<p><strong>Immutable Infrastructure</strong></p>
+<p><strong>Focus on rapid recoverability / deployment</strong></p>
 
-<p><strong>Recovery vs Repair</strong></p>
+<p>When building and running systems always focus first on the ability to recover at the cost of almost everything else.</p>
 
-<p>stateless &gt; stateful (recovery &gt; replication &gt; clustering / repair)</p>
+<table>
+  <thead>
+    <tr>
+      <th>Style</th>
+      <th>Database</th>
+      <th>Sesson Management</th>
+      <th>Deployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stateless</td>
+      <td>Event Sourcing</td>
+      <td>JWT</td>
+      <td>Immutable Infrastructure</td>
+    </tr>
+    <tr>
+      <td>Active / Active (Replicated State)</td>
+      <td>Data Guard <br />Streaming Replication</td>
+      <td>Database / InMemory session replication</td>
+      <td>GitOps</td>
+    </tr>
+    <tr>
+      <td>Active / Passive (Shared State)</td>
+      <td>Oracle RAC <br />SQL Server Clustering</td>
+      <td>Database / InMemory session clustering</td>
+      <td>Configuration Management</td>
+    </tr>
+    <tr>
+      <td>Active (Snowflakes)</td>
+      <td> </td>
+      <td>Session Persistence</td>
+      <td>Manual</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Failure design</strong></p>
 
 <h3 id="getting-started">Getting Started</h3>
 
@@ -352,14 +387,18 @@ document.write('<a class="sidebar-nav-item" href="&#109;&#97;&#105;&#108;&#116;&
 
 <p><strong>Find and eliminate snowflakes</strong></p>
 
-<p>Ticket driven request queues are snowflake makers
-Immutable infrastructure can help in eliminating snowflakes</p>
+<ul>
+  <li>Ticket driven request queues are snowflake makers</li>
+  <li>Immutable infrastructure can help in eliminating snowflakes</li>
+</ul>
 
 <p><strong>Find and eliminate information silo’s</strong></p>
 
-<p>Use documentation as code and design driven development
- Git is the ideal place to store documentation as it facilitates collaboration
- and ensures the environment and documents are always in</p>
+<ul>
+  <li>Use documentation as code and design driven development</li>
+  <li>Git is the ideal place to store documentation as it facilitates collaboration
+and ensures the environment and documents are always in</li>
+</ul>
 
 <h3 id="maturity">Maturity</h3>
 
