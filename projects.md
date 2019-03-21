@@ -1,6 +1,16 @@
+---
+layout: page
+title: Projects
+
+---
+
 # Projects
 
 The vast majority of my work has been on an enterprise software platform [papertrail](https://www.papertrail.co.za) - I am however avid open-source enthusiast.
+
+# Kubernetes
+
+- [kube-provision](https://github.com/moshloop/kube-provision) - A k8s cluster provisioning tool based upon ansible-provision/deploy with support for VMWare vSphere/Fusion, VirtualBox, AWS and Azure
 
 # Ansible
 
@@ -12,12 +22,13 @@ The vast majority of my work has been on an enterprise software platform [papert
 
 # Jenkins
 
-- [stateless-jenkins](https://github.com/moshloop/stateless-jenkins) - An opionionated distributed of Jenkins in docker format, bundled with many common plugins and init scripts that bootstrap it from one or more git repo's.
+- [stateless-jenkins](https://github.com/moshloop/stateless-jenkins) - An opionionated distribution of Jenkins in docker format, bundled with many common plugins and init scripts that bootstrap it from one or more git repo's.
 
 # CLI's
 
 - [fireviz](https://github.com/moshloop/fireviz) - a tool for modelling firewall rules using Graphviz and then exporting them to CloudFormation or Azure Resource Templates.
 - [systools](https://github.com/moshloop/systools) - a set of bash scripts that simplify bootstrapping newly provisioned instances.
+- [bash-plus](https://github.com/moshloop/bash-plus) - A preprocessor for bash scripts that adds CLI option handling and a common utility library.
 - [db-cli](https://github.com/moshloop/db-cli) - a simple tool for executing SQL against MS SQL, MySQL and PostgreSQL databases without depending on client installs or JDBC drivers.
 - [nexus-cli](https://github.com/moshloop/nexus-cli) - a tool for mirroring a Nexus repository to a local filesystem and/or Amazon S3.
 

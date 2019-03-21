@@ -8,4 +8,4 @@ docker:
 
 .PHONY: run
 run: docker
-	docker run --rm -w $(PWD) -v $(PWD):$(PWD) -p 4000:4000 jekyll
+	docker run --rm -w $(PWD) -v $(PWD):$(PWD) -it -p 4000:4000 jekyll serve --watch

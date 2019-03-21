@@ -1,3 +1,9 @@
+---
+layout: page
+title: Reading List
+
+---
+
 ## My Reading List
 
 <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->

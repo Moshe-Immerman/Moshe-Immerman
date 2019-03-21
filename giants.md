@@ -1,3 +1,8 @@
+---
+layout: page
+title: Giants
+
+---
 ## Giants
 
 I once bought a book called [On The Shoulders of Giants](https://www.amazon.com/Shoulders-Giants-Nicolaus-Copernicus/dp/076241698X) by Stephan Hawking, a compilation of classical works in physics by the likes of Newton, Copernicus, Einstein, Galilei and Kepler. While I can't say I have read more than the introduction to each book/essay it did make me fully appreciate how innovation and breakthroughs are incremental and built on the shoulders of giants.

@@ -19,7 +19,7 @@ There are however some universal truth's that apply no matter the place or cultu
 
 ------
 
-The 7+1 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology. 
+The 7+1 laws presented below are universal and have been distilled from decades of research, experience and failure in the software development world by the [giants](/giants).  They apply to all software development irrespective of scale, domain and technology.
 
 | Law                                      | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
@@ -35,11 +35,17 @@ The 7+1 laws presented below are universal and have been distilled from decades 
 
 The 8th and arguable most important law of all deserves a section all on it's own - Keeping things simple.
 
-*A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.* – **John Gall** 
+*A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.* – **John Gall**
 
 *Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction.* - **E. F. Schumacher**
 
 *It seems that perfection is attained, not when there is nothing more to add, but when there is nothing more to take away.* - **Antoine de Saint Exupéry**
+
+Economic Complexity: [AWS re:Invent 2017: Models of Availability (ARC321)](https://www.youtube.com/watch?v=xc_PZ5OPXcc)
+    - State
+    - Relationships
+    - Uncertaintity
+    - Irreversability
 
 
 ### System Design Principles

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Kubernetes 101
+
+---
+
 # Kubernetes 101
 
 🎥 30 - 60 minute videos
@@ -12,7 +18,7 @@
   * 🎥 [Phippy goes to the Zoo](https://www.youtube.com/watch?v=O1pv70lPlNc) 📄 [Slides](https://www.cncf.io/wp-content/uploads/2018/12/Phippy-Goes-To-The-Zoo.pdf) 🕔 16m
 * 🎥 [Kubernetes the Global Computer, Kelsey Hightower](https://www.youtube.com/watch?v=8SvQqZNP6uo) 🕔 15m
 * 🎥 [Kubernetes 101](https://www.youtube.com/watch?v=N7gxfroizbA) 🕔 20m
-
+* 🎥 [Recorded Kubernetes Workshop](https://www.youtube.com/playlist?list=PLBAFXs0YjviJwCoxSUkUPhsSxDJzpZbJd) 🕔 1d
 
 ### Containers
 

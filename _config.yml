@@ -25,6 +25,7 @@ excerpt_separator: <!-- more -->
 exclude:
   - private
   - node_modules
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
